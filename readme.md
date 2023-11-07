@@ -115,6 +115,8 @@ pip install -r requirements.txt
 ### Data Construction
 To construct data yourself, run the following command
 ```
+cd src/data_construction
+
 # using pairwise feedback data to generate optimized prompts
 python chatgpt_infer.py
 

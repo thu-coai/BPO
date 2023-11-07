@@ -115,8 +115,8 @@ Optimized Instruction: xxx [END]"""
 
 if __name__ == '__main__':
     # TODO input file and output file
-    input_file = '../data/data_construction/examples_ctx.json'
-    output_file = '../data/data_construction/examples_ctx_optimized.jsonl'
+    input_file = '../../data/data_construction/examples_ctx.json'
+    output_file = '../../data/data_construction/examples_ctx_optimized.jsonl'
     if not os.path.exists(output_file):
         x = open(output_file, 'w')
         x.close()
