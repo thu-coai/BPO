@@ -1,12 +1,11 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_path = '/cjl/llm_finetuning/output/prompt_engineer_en/bpo_model'
+model_path = 'Your-Model-Path'
 
 prompt_template = "[INST] You are an expert prompt engineer. Please help me improve this prompt to get a more helpful and harmless response:\n{} [/INST]"
 
 model = AutoModelForCausalLM.from_pretrained(model_path).cuda()
 tokenizer = AutoTokenizer.from_pretrained(model_path)
-    
 
 text = 'Tell Me About Harry Potter'
 
@@ -16,4 +15,3 @@ output = model.generate(**model_inputs, max_new_tokens=1024, do_sample=True, top
 resp = tokenizer.decode(output[0], skip_special_tokens=True).split('[/INST]')[1].strip()
 
 print(resp)
-
