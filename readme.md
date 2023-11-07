@@ -13,7 +13,7 @@
 
 <!-- ![BPO](assets/intro.png) -->
 <div align="center">
-<img src="assets/intro.png" alt="BPO" width="80%" />
+<img src="assets/intro.png" alt="BPO" width="50%" />
 </div>
 
 <br>
@@ -34,13 +34,13 @@ We will open source the data and prompt optimization model once they are organiz
 For all codes, we have added `#TODO` comments to indicate places in the code that need modification before running. Please update the relevant parts as noted before executing each file.
 
 ### Setup
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ### Data Construction
 To construct data yourself, run the following command
-```
+```bash
 cd src/data_construction
 
 # using pairwise feedback data to generate optimized prompts
@@ -53,7 +53,7 @@ python process_optimized_prompts.py
 ### Model Training
 If you want to train your own prompt preference optimizer, 
 please run the following command:
-```
+```bash
 cd src/training
 
 # pre-process fine-tuning data
