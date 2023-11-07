@@ -1,7 +1,7 @@
 import json
 import random
 
-with open('../data/train_data/train.json', encoding='utf-8') as f:
+with open('../../data/data_construction/examples_ctx_optimized.json', encoding='utf-8') as f:
     d = json.load(f)
 
 res = []
@@ -24,6 +24,6 @@ for i in d:
     }, ensure_ascii=False) + '\n')
     num += 1
 
-with open('./training/data/train.jsonl', 'w', encoding='utf-8') as f:
+with open('data/train.jsonl', 'w', encoding='utf-8') as f:
     f.writelines(res)
 

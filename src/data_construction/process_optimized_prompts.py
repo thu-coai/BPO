@@ -119,8 +119,8 @@ def process_ctx(input_file, output_file):
 
 if __name__ == '__main__':
     # TODO add input_file output_file
-    input_file = '../data/data_construction/examples_ctx_optimized.jsonl'
-    output_file = '../data/data_construction/examples_ctx_optimized.json'
+    input_file = '../../data/data_construction/examples_ctx_optimized.jsonl'
+    output_file = '../../data/data_construction/examples_ctx_optimized.json'
     
     # TODO choose a function depend on your dataset
 
