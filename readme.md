@@ -33,7 +33,7 @@
 The prompt preference optimization model can be download from 
 
 Inference code (src/infer_example.py):
-```
+```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_path = 'Your-Model-Path'
@@ -57,7 +57,7 @@ print(resp)
 
 ### BPO dataset
 Our data is located in the data directory. Specifically, `train.json` in the `train_data` directory contains the data we used to train the BPO model, around 14k examples. Each data example has the following format:
-```
+```json
 {
     "instruction": {instruction},
     "context": {context}, # Optional
@@ -70,7 +70,7 @@ Our data is located in the data directory. Specifically, `train.json` in the `tr
     "final_input": {final_input},
     "final_output": {final_output},
     "source": {source} 
-},
+}
 ```
 - {instruction} is the original prompt. 
 - Some datasets have a {context} field (e.g. alpaca-gpt4). 
@@ -83,7 +83,7 @@ Our data is located in the data directory. Specifically, `train.json` in the `tr
 
 ### BPO for SFT Data Construction 
 The alpaca_reproduce directory contains the BPO-reproduced Alpaca dataset. The data format is:
-```
+```json
 {
     "instruction": {instruction},
     "input": {input},
@@ -110,13 +110,13 @@ The testset directory contains all the test datasets we used, including:
 For all codes, we have added `#TODO` comments to indicate places in the code that need modification before running. Please update the relevant parts as noted before executing each file.
 
 ### Setup
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ### Data Construction
 To construct data yourself, run the following command
-```
+```bash
 cd src/data_construction
 
 # using pairwise feedback data to generate optimized prompts
@@ -129,7 +129,7 @@ python process_optimized_prompts.py
 ### Model Training
 If you want to train your own prompt preference optimizer, 
 please run the following command:
-```
+```bash
 cd src/training
 
 # pre-process fine-tuning data
