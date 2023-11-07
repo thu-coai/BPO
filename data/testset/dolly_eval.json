@@ -1,0 +1,1402 @@
+[
+    {
+        "instruction": "Who owns the largest share of the Vancouver Whitecaps FC?",
+        "context": "Vancouver Whitecaps FC is owned by a group of four investors: Greg Kerfoot, Steve Luczo, Jeff Mallett, and Steve Nash. The group has a collective net worth over $2 billion. Kerfoot has been the majority owner of the Whitecaps since 2002, when he saved the club from contraction after previous owner David Stadnyk left the club, selling it to United Soccer Leagues. Mallett, a former chief operating officer (COO) of Yahoo!, who was raised in Victoria, British Columbia, and played for several collegiate soccer teams. He later purchased minority stakes in the San Francisco Giants of Major League Baseball and English soccer club Derby County F.C. Having first met at a charity soccer event in 2005, Mallett partnered with Steve Nash\u2014a two-time National Basketball Association (NBA) Most Valuable Player who was also raised in Victoria\u2014to put together a bid for a minority share of English soccer club Tottenham Hotspur F.C. in 2008. After that transaction fell through, the duo contacted Kerfoot about a minority stake in the club. Nash is the older brother of former Whitecaps midfielder Martin Nash. The fourth partner, Steve Luczo, is the president, chairman, and CEO of Seagate Technology and a partner in Boston Basketball Partners L.L.C., a group who own the NBA Boston Celtics. Luczo met Kerfoot while the two were both employed by Seagate Technology, and Kerfoot contacted Luczo proposing he become part of the club's MLS bid. In 2009, the group paid a $35 million expansion fee to MLS for the right to join the league.",
+        "response": "Of the group of 4 investors, Greg Kerfoot is the majority owner the Vancouver Whitecaps FC investors group.",
+        "category": "information_extraction",
+        "idx": 0
+    },
+    {
+        "instruction": "Is the Jakobshorn in Davos worth a trip",
+        "context": "The Jakobshorn (2,590 metres (8,500 ft)) is a mountain of the Albula Alps, overlooking Davos in the Swiss canton of Graub\u00fcnden. It is also one of the five skiing regions of the Davos Klosters Mountains, offering 14 pistes.\n\n\nJakobshorn panorama\nLocated at the northern end of the range between the Dischmatal and Sertigtal, the Jakobshorn is served by a two-part cable car running from Davos Platz. Once on the mountain there are three chairlifts, one short cable car, and one T-Bar. Since 1995 there has also been a two-person chair-lift, running from near the base station to the near the bottom of Usser Isch.\n\nThere are a variety of pistes on the Jakobshorn\u2014blue, red and black\u2014and the mountain is renowned for being a centre for snowboarding; Bolgen provides an illuminated super pipe.\n\nPistes are very wide and the area is popular with novice skiers, there are however a number of black terrains for the more adventurous skier. The main two lifts also open during the summer, from July\u2013October, and there are many walks on the Jakobshorn.\n\nThe Jakobshorn is also a favoured take-off point for hang-gliders and snowkiters.",
+        "response": "The Jakobshorn (2,590 metres (8,500 ft)) is a mountain of the Albula Alps, overlooking Davos in the Swiss canton of Graub\u00fcnden. It is also one of the five skiing regions of the Davos Klosters Mountains, offering 14 pistes.\n\nThere are a variety of pistes on the Jakobshorn\u2014blue, red and black\u2014and the mountain is renowned for being a centre for snowboarding; Bolgen provides an illuminated super pipe.\n\nPistes are very wide and the area is popular with novice skiers, there are however a number of black terrains for the more adventurous skier. The main two lifts also open during the summer, from July\u2013October, and there are many walks on the Jakobshorn.\n\nThe Jakobshorn is also a favoured take-off point for hang-gliders and snowkiters.",
+        "category": "summarization",
+        "idx": 1
+    },
+    {
+        "instruction": "List all the people mentioned in this paragraph on the history of Unix",
+        "context": "The new operating system was initially without organizational backing, and also without a name. At this stage, the new operating system was a singletasking operating system, not a multitasking one such as Multics. The name Unics (Uniplexed Information and Computing Service, pronounced as \"eunuchs\"), a pun on Multics (Multiplexed Information and Computer Services), was initially suggested for the project in 1970. Brian Kernighan claims the coining for himself, and adds that \"no one can remember\" who came up with the final spelling Unix. Dennis Ritchie and Doug McIlroy also credit Kernighan.\n\nWhen the Computing Sciences Research Center wanted to use Unix on a machine larger than the PDP-7, while another department needed a word processor, Thompson and Ritchie added text processing capabilities to Unix and received funding for a PDP-11. For the first time in 1970, the Unix operating system was officially named and ran on the PDP-11. A text-formatting program called roff and a text editor were added. All three were written in PDP-11 assembly language. Bell Labs used this initial text-processing system, consisting of Unix, roff, and the editor, for text processing of patent applications. Roff soon evolved into troff, the first electronic publishing program with full typesetting capability.\n\nAs the system grew in complexity and the research team wanted more users, the need for a manual grew apparent. The UNIX Programmer's Manual was published on 3 November 1971; commands were documented in the \"man page\" format that is still used, offering terse reference information about usage as well as bugs in the software, and listing the authors of programs to channel questions to them.\n\nAfter other Bell Labs departments purchased DEC PDP-11s, they also chose to run Unix instead of DEC's own operating system. By Version 4 it was widely used within the laboratory and a Unix Support Group was formed, helping the operating system survive by formalizing its distribution.\n\nIn 1973, Version 4 Unix was rewritten in the higher-level language C, contrary to the general notion at the time that an operating system's complexity and sophistication required it to be written in assembly language. The C language appeared as part of Version 2. Thompson and Ritchie were so influential on early Unix that McIlroy estimated that they wrote and debugged about 100,000 lines of code that year, stating that \"[their names] may safely be assumed to be attached to almost everything not otherwise attributed\". Although assembly did not disappear from the man pages until Version 8, the migration to C suggested portability of the software, requiring only a relatively small amount of machine-dependent code to be replaced when porting Unix to other computing platforms. Version 4 Unix, however, still had considerable PDP-11-dependent code and was not suitable for porting. The first port to other platform was made five years later (1978) for Interdata 8/32.\n\nThe Unix operating system was first presented formally to the outside world at the 1973 Symposium on Operating Systems Principles, where Ritchie and Thompson delivered a paper. This led to requests for the system, but under a 1956 consent decree in settlement of an antitrust case, the Bell System (the parent organization of Bell Labs) was forbidden from entering any business other than \"common carrier communications services\", and was required to license any patents it had upon request. Unix could not, therefore, be turned into a product. Bell Labs instead shipped the system for the cost of media and shipping. Ken Thompson quietly began answering requests by shipping out tapes and disks, each accompanied by \u2013 according to legend \u2013 a note signed, \"Love, Ken\".",
+        "response": "- Brian Kernighan\n- Dennis Ritchie\n- Doug McIlroy\n- Ken Thompson",
+        "category": "information_extraction",
+        "idx": 2
+    },
+    {
+        "instruction": "What are the best types of pets for a family with kids?",
+        "context": "",
+        "response": "The most common family pets are dogs and cats. They are great with kids and very social by nature, they love interacting with their owners and easy to take care for. There are records of dogs being domesticated around 20,000 years ago while cats showing up around 10,000 years ago.  Even though those are the two most common family pets, you will find many families have other animal classes like birds, reptiles, rodents, among other more exotic variations.",
+        "category": "open_qa",
+        "idx": 3
+    },
+    {
+        "instruction": "In what year were the first Air Jordan sneakers released?",
+        "context": "",
+        "response": "1984.",
+        "category": "open_qa",
+        "idx": 4
+    },
+    {
+        "instruction": "Who created Final Fantasy?",
+        "context": "Final Fantasy is a Japanese science fantasy anthology media franchise created by Hironobu Sakaguchi and developed and owned by Square Enix (formerly Square). The franchise centers on a series of fantasy and science fantasy role-playing video games. The first game in the series was released in 1987, with 15 numbered main entries having been released to date.",
+        "response": "Final Fantasy was created by Hironobu Sakaguchi",
+        "category": "closed_qa",
+        "idx": 5
+    },
+    {
+        "instruction": "What is the tallest building in Chicago?",
+        "context": "",
+        "response": "The tallest building in Chicago is the Sears Tower",
+        "category": "open_qa",
+        "idx": 6
+    },
+    {
+        "instruction": "What's a gaya melon? How does it taste like?",
+        "context": "Gaya melon, also known as snowball melon, ghost melon, dinosaur melon, dinosaur egg melon, dino melon, and dino egg melon, is a small to medium-sized honeydew melon developed originally in Japan and Korea and now grown in China, Mexico, southern California, and South America.\nThe rind is very thin and is ivory in color with green streaking and the interior flesh is white. They are round in shape and may be slightly oblong. The flesh is juicy and soft towards the center but crisper towards the rind. It has been described to have a mild, sweet flavor with floral notes. It is best kept at room temperature and cut melons will stay good in a refrigerator for up to 5 days.",
+        "response": "Gaya melon is a type of honeydew melon originally developed in Japan and Korea. They are very juicy and soft towards the center but crisper towards the grind. It has been described to have a mild, sweet flavor with floral notes.",
+        "category": "summarization",
+        "idx": 7
+    },
+    {
+        "instruction": "Given this paragraph about magnesium, what is the boiling point of magnesium in celsius?",
+        "context": "Elemental magnesium is a gray-white lightweight metal, two-thirds the density of aluminium. Magnesium has the lowest melting (923 K (650 \u00b0C)) and the lowest boiling point 1,363 K (1,090 \u00b0C) of all the alkaline earth metals.",
+        "response": "The boiling point of magnesium is 1,090 \u00b0C.",
+        "category": "closed_qa",
+        "idx": 8
+    },
+    {
+        "instruction": "From the provided paragraph, write a bulleted list of how cheeses can be grouped.",
+        "context": "There are many different types of cheese. Cheeses can be grouped or classified according to criteria such as length of fermentation, texture, methods of production, fat content, animal milk, and country or region of origin. The method most commonly and traditionally used is based on moisture content, which is then further narrowed down by fat content and curing or ripening methods. The criteria may either be used singly or in combination, with no single method being universally used.",
+        "response": "* Length of fermentation\n* Texture\n* Methods of production\n* Fat content\n* Animal milk\n* Country or region of origin",
+        "category": "information_extraction",
+        "idx": 9
+    },
+    {
+        "instruction": "How do you know if a chicken breast is fully cooked?",
+        "context": "",
+        "response": "When the internal temperature reaches a minimum of 150 F",
+        "category": "open_qa",
+        "idx": 10
+    },
+    {
+        "instruction": "Is the sun a star or a planet?",
+        "context": "",
+        "response": "The sun is not a planet but a star. It is not only the nearest and sole star in our solar system, it also happens to be its center.",
+        "category": "classification",
+        "idx": 11
+    },
+    {
+        "instruction": "Extract the shows that Bini the Bunny was featured. Separate them with a comma.",
+        "context": "Bini the Bunny is a rabbit, known for a series of videos posted on the internet. Bini is a 10-year-old male Holland Lop rabbit, referred to by the media and fans as the only rabbit in the world who can paint, play basketball, play the guitar/piano and comb and style hair. As of 2017, Bini and his owner, Shai (Asor) Lighter are Guinness Book of World Record holders for the most slam dunks by a rabbit in one minute. Bini's most popular video with over 20 million views was created in 2016, titled \"When Your Bunny is Addicted to Arcade Games\". Bini's social pages have more than 1 million followers. Bini was featured in various TV shows including The Tonight Show with Jimmy Fallon, two Netflix originals, and participated in America's Got Talent.",
+        "response": "The Tonight Show with Jimmy Fallon, two Netflix originals, America's Got Talent.",
+        "category": "information_extraction",
+        "idx": 12
+    },
+    {
+        "instruction": "What is a 4x4?",
+        "context": "",
+        "response": "A 4x4 is a type of vehicle with four wheel drive. It is also know as a SUV, a sports utility vehicle. They are typically higher off the ground than standard cars, with more room inside the cabin. 4x4s typically are heavier with poorer handling, but have the capacity to drive off-road and cope with poor weather conditions much better.",
+        "category": "general_qa",
+        "idx": 13
+    },
+    {
+        "instruction": "What are some of the pros of subleasing?",
+        "context": "",
+        "response": "Subleasing can provide flexibility to a tenant, allowing them to move earlier than anticipated without having to continue to pay double rent or a lease breaking fee (often 1.5 to 2 times monthly rent, if allowed at all!) For the subletter, it can provide a way in which to find a lease with a non standard length (like 4 or 8 months, not typically offered) at a great rate. For landlords, it continues to keep their space occupied, and provides a new potential next tenant. Needless to say there are wins all around!",
+        "category": "creative_writing",
+        "idx": 14
+    },
+    {
+        "instruction": "Tell me about Hong Kong",
+        "context": "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China (abbr. Hong Kong SAR or HKSAR), is a city and special administrative region of China on the eastern Pearl River Delta in South China. With 7.5 million residents of various nationalities in a 1,104-square-kilometre (426 sq mi) territory, Hong Kong is one of the most densely populated places in the world. Hong Kong is also a major global financial centre and one of the most developed cities in the world.\n\nHong Kong was established as a colony of the British Empire after the Qing Empire ceded Hong Kong Island from Xin'an County at the end of the First Opium War in 1841 then again in 1842. The colony expanded to the Kowloon Peninsula in 1860 after the Second Opium War and was further extended when Britain obtained a 99-year lease of the New Territories in 1898. British Hong Kong was occupied by Imperial Japan from 1941 to 1945 during World War II; British administration resumed after the surrender of Japan. The whole territory was transferred to China in 1997. As one of China's two special administrative regions (the other being Macau), Hong Kong maintains separate governing and economic systems from that of mainland China under the principle of \"one country, two systems\".\n\nOriginally a sparsely populated area of farming and fishing villages, the territory has become one of the world's most significant financial centres and commercial ports. As of 2021, it is the world's ninth-largest exporter and eight-largest importer. Hong Kong has a market economy characterised by a focus on services, low taxation and free trade; its currency, the Hong Kong dollar, is the eighth most traded currency in the world. Hong Kong is home to the third-highest number of billionaires of any city in the world, the second-highest number of billionaires of any city in Asia, and the largest concentration of ultra high-net-worth individuals of any city in the world. Although the city has one of the highest per capita incomes in the world, severe income inequality exists among the population. Most notably, housing in Hong Kong has been well-documented to experience a chronic persistent shortage; the extremely compact house sizes and the extremely high housing density are the effects of Hong Kong's housing market being the most expensive housing in the world.\n\nHong Kong is a highly developed territory and has a Human Development Index (HDI) of 0.952, ranking fourth in the world. The city has the largest number of skyscrapers of any city in the world, and its residents have some of the highest life expectancies in the world. The dense space has led to a highly developed transportation network with public transport rates exceeding 90%. Hong Kong is ranked 3rd in the Global Financial Centres Index.",
+        "response": "Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China (abbr. Hong Kong SAR or HKSAR), is a city and special administrative region of China on the eastern Pearl River Delta in South China. With 7.5 million residents of various nationalities in a 1,104-square-kilometre (426 sq mi) territory, Hong Kong is one of the most densely populated places in the world. Hong Kong is also a major global financial centre and one of the most developed cities in the world.\n\nHong Kong was established as a colony of the British Empire after the Qing Empire ceded Hong Kong Island from Xin'an County at the end of the First Opium War in 1841 then again in 1842. The colony expanded to the Kowloon Peninsula in 1860 after the Second Opium War and was further extended when Britain obtained a 99-year lease of the New Territories in 1898. British Hong Kong was occupied by Imperial Japan from 1941 to 1945 during World War II; British administration resumed after the surrender of Japan. The whole territory was transferred to China in 1997. As one of China's two special administrative regions (the other being Macau), Hong Kong maintains separate governing and economic systems from that of mainland China under the principle of \"one country, two systems\".\n\nOriginally a sparsely populated area of farming and fishing villages, the territory has become one of the world's most significant financial centres and commercial ports. As of 2021, it is the world's ninth-largest exporter and eight-largest importer. Hong Kong has a market economy characterised by a focus on services, low taxation and free trade; its currency, the Hong Kong dollar, is the eighth most traded currency in the world. Hong Kong is home to the third-highest number of billionaires of any city in the world, the second-highest number of billionaires of any city in Asia, and the largest concentration of ultra high-net-worth individuals of any city in the world. Although the city has one of the highest per capita incomes in the world, severe income inequality exists among the population. Most notably, housing in Hong Kong has been well-documented to experience a chronic persistent shortage; the extremely compact house sizes and the extremely high housing density are the effects of Hong Kong's housing market being the most expensive housing in the world.\n\nHong Kong is a highly developed territory and has a Human Development Index (HDI) of 0.952, ranking fourth in the world. The city has the largest number of skyscrapers of any city in the world, and its residents have some of the highest life expectancies in the world. The dense space has led to a highly developed transportation network with public transport rates exceeding 90%. Hong Kong is ranked 3rd in the Global Financial Centres Index.",
+        "category": "closed_qa",
+        "idx": 15
+    },
+    {
+        "instruction": "What is one of your favorite color?",
+        "context": "",
+        "response": "My favorite color is purple. Purple is a great color for many reasons. The hue and tone are quite pleasing to the eye. Additionally, purple is complementary to many other colors such as green, yellow, and gray. The color purple is often a color symbolizing richness and celebration, while it is a mature color it is also lively.",
+        "category": "general_qa",
+        "idx": 16
+    },
+    {
+        "instruction": "What are the names of Tata trusts which Ratan Tata heads?",
+        "context": "Ratan Tata was the interim chairman of\u00a0Tata Sons. He continues to head the main two Tata trusts\u00a0Sir Dorabji Tata and Allied Trusts\u00a0and\u00a0Sir Ratan Tata Trust\u00a0and their allied trusts, with a combined stake of 66% in Tata Sons, Tata group's holding company.He has served in various capacities in organizations in India and abroad. He is a member of Prime Minister's 'Council on Trade and Industry' and the 'National Manufacturing Competitiveness Council'. He is on the jury panel of\u00a0Pritzker Architecture Prize\u00a0\u2013 considered to be one of the world's premier architecture prizes.Over the years Tata has served on the\u00a0Cornell University\u00a0Board of Trustees, personally advising the school's administration in matters of international involvement, particularly regarding projects connected to India. More broadly, Tata has served on the board's Academic Affairs, Student Life, and Development Committees. In 2013 he was named Cornell Entrepreneur of the Year.He is a director on the boards of\u00a0Alcoa\u00a0Inc.,\u00a0Mondelez International\u00a0and Board of Governors of the\u00a0East\u2013West Center. He is also a member of the board of trustees of\u00a0University of Southern California, Harvard Business School Board of Dean's Advisors, X Prize\u00a0and Cornell University. He is a member on the board of International Advisory Council at\u00a0Bocconi University.He is also a member of the Harvard Business School India Advisory Board (IAB) since 2006 and previously a member of the Harvard Business School Asia-Pacific Advisory Board (APAB) 2001\u20132006.[citation needed]In 2013, he was appointed to the board of trustees of the\u00a0Carnegie Endowment for International Peace.In February 2015, Ratan took an advisory role at Kalari Capital, a venture capital firm founded by\u00a0Vani Kola.In October 2016, Tata Sons removed Cyrus Mistry as its chairman, nearly 4 years after he took over the reins of the over $100\u00a0billion conglomerate, Ratan Tata made a comeback, taking over the company's interim boss for 4 months. On 12 January 2017,\u00a0Natarajan Chandrasekaran\u00a0was named as the chairman of Tata Sons, a role he assumed in February 2017.",
+        "response": "Sir Dorabji Tata and Allied Trusts and Sir Ratan Tata Trust",
+        "category": "information_extraction",
+        "idx": 17
+    },
+    {
+        "instruction": "Who was Hamish",
+        "context": "James Hill \"Hamish\" Barber FRCGP (28 May 1933 \u2013 26 August 2007) was a doctor and medical academic. He was the first professor of general practice at the University of Glasgow and wrote the first comprehensive textbook in this field.\n\nEarly life\nBarber was born on 28 May 1933 in Dunfermline, Scotland.\n\nMedical career\nBarber qualified from the University of Edinburgh in 1957. He gained a MD in 1966 with a thesis entitled A Study of Asymptomatic Bacteriuria in General Practice.\n\nIn 1972 he was appointed as senior lecturer in the organisation of medical care at the University of Glasgow. In 1974 he became the first professor of General Practice at the University. Computer-assisted learning was introduced during his tenure.\n\nTogether with Andrew Boddy, he wrote The Textbook of General Practice Medicine which was published in 1975. At just over 350 pages it was the first comprehensive textbook of this specialty.\n\nHe retired in 1993.\n\nLater life and death\nHe made model boats and wrote a book on the topic that was published in 2005: Scottish fishing vessels of the nineteenth century, a guide to building scale model boats.\n\nAfter a long illness, he died on 26 August 2007.",
+        "response": "James Hill \"Hamish\" Barber FRCGP (28 May 1933 \u2013 26 August 2007) was a doctor and medical academic. He was the first professor of general practice at the University of Glasgow and wrote the first comprehensive textbook in this field. Early life Barber qualified from the University of Edinburgh in 1957. In 1972 he was appointed as senior lecturer in the organization of medical care at the University of Glasgow. In 1974 he became the first professor of General Practice at the University. Computer-assisted learning was introduced during his tenure. He wrote The Textbook of General Practice Medicine with Andrew Boddy, published in 1975. Later life and death",
+        "category": "information_extraction",
+        "idx": 18
+    },
+    {
+        "instruction": "Which country has the most inhabitants?",
+        "context": "",
+        "response": "#\tCountry (or dependency)\tPopulation (2020)\n1\tChina\t1,439,323,776\n2\tIndia\t1,380,004,385\n3\tUnited States\t331,002,651\n4\tIndonesia\t273,523,615",
+        "category": "general_qa",
+        "idx": 19
+    },
+    {
+        "instruction": "What caused Covid 19?",
+        "context": "",
+        "response": "The novel virus was first identified in an outbreak in the Chinese city of Wuhan in December 2019. Attempts to contain it there failed, allowing the virus to spread to other areas of Asia and later worldwide. The World Health Organization (WHO) declared the outbreak a public health emergency of international concern on 30 January 2020, and a pandemic on 11 March 2020. As of 10 March 2023, the pandemic had caused more than 676 million cases and 6.88 million confirmed deaths, making it one of the deadliest in history.",
+        "category": "open_qa",
+        "idx": 20
+    },
+    {
+        "instruction": "Who finally conquered Constantinople?",
+        "context": "",
+        "response": "After a lengthy siege, the forces of the Ottoman Empire under Sultan Mehmed II successfully took Constantinople and ended the Eastern Roman Empire.",
+        "category": "general_qa",
+        "idx": 21
+    },
+    {
+        "instruction": "Which of the following items are types of books: novels, biographies, historical fiction, reference texts, graphic novels, newspapers, magazines, flyers, pamphlets, pocket dictionaries.",
+        "context": "",
+        "response": "novels, biographies, historical fiction, reference texts, graphic novels, pocket dictionaries",
+        "category": "classification",
+        "idx": 22
+    },
+    {
+        "instruction": "Write an friendly, convincing e-mail to my landlord asking whether I can get a dog.",
+        "context": "",
+        "response": "Dear Sir/Madam,\n\nI hope this email finds you well.\nI'm reaching out with a request regarding the property I rent from you. I'm interested in getting myself a dog and I noticed there wasn't a clause in our rental agreement specifying if this was allowed or not so I would like to consult you about that.\nI work from home most days of the week and have a very laidback lifestyle, so I'm looking for a dog that can keep me company but also take me out of the house for walks. I'm looking into a small breed that is also calm and friendly - likely a french bulldog. They are easy to train and known for spending most of their day sleeping, this is also a very quiet breed that doesn't have a lot of complains of barking.\nIs that something you would permit? \nI am also happy to hop on a call or meet in person to discuss further in case you have any follow-up questions.\n\nLooking forward to hearing from you soon.\n\nKind regards",
+        "category": "creative_writing",
+        "idx": 23
+    },
+    {
+        "instruction": "Make a poem about color and style",
+        "context": "",
+        "response": "Why is the sky blue? It makes me sad\nA new color wouldn't be so bad\n\nI change it to yellow.\nThat will surely make me a jolly good fellow.\n\nWhy is the grass green?\nIt looks and dirty and mean\n\nIt should be pink\nThat will make people think\n\nI look at the trees\nWith nests full of bees\n\nThe trunk is brown\nThat makes me frown\n\nPurple would look best\nIt would be different from the rest\n\nI admire the newly colored town\nNo sad colors like blue or brown\n\nPeople stare at me\nThey all disagree\n\n\"Change it back!\" They say\n\"We want it to look how it was yesterday\"\n\n\"It may not be to your liking but that's how it goes\"\nThey are right I suppose\n\n I change it to how it was before\nThey all like that more\n\nI realize it's okay\nIt looks perfect this way",
+        "category": "creative_writing",
+        "idx": 24
+    },
+    {
+        "instruction": "Tell me about Holi and why so many people in the world celebrate it?",
+        "context": "Holi ( /\u02c8ho\u028ali\u02d0/) is a popular and significant Hindu festival celebrated as the Festival of Colours, Love and Spring. It celebrates the eternal and divine love of the god Radha and Krishna. Additionally, the day also signifies the triumph of good over evil,as it commemorates the victory of Vishnu as Narasimha Narayana over Hiranyakashipu. Holi is originated and is predominantly celebrated in the Indian subcontinent but has also spread to other regions of Asia and parts of the Western world through the Indian diaspora.",
+        "response": "Holi is an festival celebrated by Hindus in India.  Even though it was originated by Hindu religion, it is celebrated across India irrespective of religion.  It has become a notable Indian cultural representation.  The reason so many people in the world celebrate it is because India has one of the largest population in the world.",
+        "category": "closed_qa",
+        "idx": 25
+    },
+    {
+        "instruction": "Classify each of the following animals as exoskeleton or endoskeleton: grasshopper, fish, spider, scorpion, ant, monkey",
+        "context": "",
+        "response": "Grasshopper: Exoskeleton\nFish: Endoskeleton\nSpider: Exoskeleton\nScorpion: Exoskeleton\nAnt: Exoskeleton\nMonkey: Endoskeleton",
+        "category": "classification",
+        "idx": 26
+    },
+    {
+        "instruction": "Which tastes better, red or green grapes?",
+        "context": "",
+        "response": "Taste. The infamous grocery store dispute often stems from the taste. The superior grape stems from personal preference. Red grapes are often considered sweeter whereas green grapes are sourer",
+        "category": "open_qa",
+        "idx": 27
+    },
+    {
+        "instruction": "I'm confused as to which of these food staples have gluten and which are gluten-free. From this list can you tell me which is which: Pasta, rice, potatoes, noodles and bread.",
+        "context": "",
+        "response": "Rice and potatoes do not contain gluten, so they are gluten-free. However, pasta, noodles and bread usually contain gluten. \n\nThere are less common varieties of these staples that do not contain gluten, but you will need to check the packaging details to ensure that they are gluten free.",
+        "category": "classification",
+        "idx": 28
+    },
+    {
+        "instruction": "How do I travel from SF to Aspen ski resorts?",
+        "context": "",
+        "response": "During winter season, United airline operates direct flight from SFO to ASE a few times a week. ASE is the local airport of Aspen. Once you arrive at ASE, most hotels and resorts offer complimentary shuttle to and from the local airport. Direct flight usually ends around the first week of April, so if that's not an option, you can either take a 1-stop flight from SFO to ASE, or fly into Denver then drive to Aspen. The drive is about 4.5 hours if the road condition is okay. If cost is a concern, flying to Denver and use rental car is usually cheaper.",
+        "category": "general_qa",
+        "idx": 29
+    },
+    {
+        "instruction": "What is the capital of the Netherlands?",
+        "context": "",
+        "response": "The capital of the Netherlands is Amsterdam.",
+        "category": "open_qa",
+        "idx": 30
+    },
+    {
+        "instruction": "Classify each of these as extinct, not extinct, or neither: Mythosaur, Triceratops, Dumbo Octopus, Dodo, Tiger, Lion turtle, Megalodon, Dire wolf, Pegasus, Seahorse",
+        "context": "",
+        "response": "Extinct: Triceratops, Dodo, Megalodon, Dire wolf\nNot Extinct: Dumbo Octopus, Tiger, Seahorse\nNeither: Mythosaur, Lion Turtle, Pegasus",
+        "category": "classification",
+        "idx": 31
+    },
+    {
+        "instruction": "What is the fastest car?",
+        "context": "",
+        "response": "In 2017, the Koenigsegg Agera RS reached a top speed of 447.19 km/h (277.87 mph).",
+        "category": "open_qa",
+        "idx": 32
+    },
+    {
+        "instruction": "Who is Manchester United's current manager?",
+        "context": "",
+        "response": "Manchester United's current manager is Eric Ten Hag",
+        "category": "open_qa",
+        "idx": 33
+    },
+    {
+        "instruction": "What can be done about NRA and why gun control is such an issue?",
+        "context": "",
+        "response": "We all know what America stands for. There is no reason to discuss love for guns, indivdual freedom, right to bear firearms, self defence, gun lobby funded by NRA, and how republicans love guns etc etc. These are all facts but it doesn't change that people die everyday and lives are wasted or impacted as a result of poor gun laws.\n\nWhat can be done about this?\n1. People who vote for gun laws have not had someone in their family shot or impacted. We don't want a personal event or death of a closed one to create a new law. An eye for an eye doesn't bring lives back. Educate the masses. Also, women tend to vote more positive on banning rifles as compared to men. Get more women out to change the law.\n\n2.  There is license for fishing and hunting. Guns should be rented and not owned. If you're into recreational things make it possible to rent guns and not own.  Do background check, and let the person enjoy his time with the toys but cannot own it. This would allow the manufacture and NRA in business. \n\n3. Never sell assault rifles to general public. A person who needs to have assault rifles are insecure by nature. They fear that the public is trying to get at them and they need to protect. Form community monitoring and have more police funding to protect our families.",
+        "category": "creative_writing",
+        "idx": 34
+    },
+    {
+        "instruction": "Out of these animals, categorize them as either 'small' or 'large: A horse, a mouse, an elephant, a snake, and a whale.",
+        "context": "",
+        "response": "The horse, elephant, and whale would all be categorized as large animals in this example. A snake and a mouse are much smaller by comparison, so these would be considered small animals.",
+        "category": "classification",
+        "idx": 35
+    },
+    {
+        "instruction": "Tell me the capital of the UK. Then tell me a famous song about that city.",
+        "context": "",
+        "response": "The capital of the United Kingdom is London. One song about that city is \"London Bridge is Falling Down\".",
+        "category": "open_qa",
+        "idx": 36
+    },
+    {
+        "instruction": "I am planning a trip to Spain. I am interested in culture, museums and art, but I also want to go to the beach and have great food. What are 5 places that I should definitely visit?",
+        "context": "",
+        "response": "Spain is a large country where you can find all of those things. This would be my top 5, but there are many other places that are worth it. Since you are not specifying the time you will spend in Spain, I will exclude the islands (Balearic Islands and Canary Islands) from the list:\n\n- Madrid: the capital city of Spain has some of the top museums in Europe, like the Prado or the Reina Sofia Museums. It is a city with a great atmosphere, and has some of the best restaurants in the country.\n- Barcelona: a mediterranean global city with a lot to offer - from Antonio Gaudi's architectural masterpieces to beaches and awesome views of the Mediterranean sea.\n- Galicia: a region located in northwestern Spain. Not very touristic, but with amazing places like Santiago de Compostela, and amazing restaurants and gastronomy.\n- Sevilla: the largest city in Southern Spain, full of history, museums and amazing places to eat.\n- Costa del Sol: one of the best places in Spain to visit the beach and get some sunlight. As its name states (Sun Coast), you will get sunny weather all year round.",
+        "category": "creative_writing",
+        "idx": 37
+    },
+    {
+        "instruction": "Extract best tourist attractions in Karnataka",
+        "context": "By virtue of its varied geography and long history, Karnataka hosts numerous spots of interest for tourists. There is an array of ancient sculptured temples, modern cities, scenic hill ranges, forests and beaches. Karnataka has been ranked as the fourth most popular destination for tourism among the states of India. Karnataka has the second highest number of nationally protected monuments in India, second only to Uttar Pradesh, in addition to 752 monuments protected by the State Directorate of Archaeology and Museums. Another 25,000 monuments are yet to receive protection.\n\nThe districts of the Western Ghats and the southern districts of the state have popular eco-tourism locations including Kudremukh, Madikeri and Agumbe. Karnataka has 25 wildlife sanctuaries and five national parks. Popular among them are Bandipura National Park, Bannerghatta National Park and Nagarhole National Park. The ruins of the Vijayanagara Empire at Hampi and the monuments of Pattadakal are on the list of UNESCO's World Heritage Sites. The cave temples at Badami and the rock-cut temples at Aihole representing the Badami Chalukyan style of architecture are also popular tourist destinations. The Hoysala temples at Beluru and Halebidu, which were built with Chloritic schist (soapstone) are proposed UNESCO World Heritage sites. The Gol Gumbaz and Ibrahim Rauza are famous examples of the Deccan Sultanate style of architecture. The monolith of Gomateshwara Bahubali at Shravanabelagola is the tallest sculpted monolith in the world, attracting tens of thousands of pilgrims during the Mahamastakabhisheka festival.\n\nGolden 5-storey Mysore Palace building with 21 domed towers and central spire\nMysore Palace in the evening, the official residence and seat of the Wodeyar dynasty, the rulers of Mysore of the Mysore Kingdom, the royal family of Mysore.\nThe waterfalls of Karnataka and Kudremukh are considered by some to be among the \"1001 Natural Wonders of the World\". Jog Falls is India's tallest single-tiered waterfall with Gokak Falls, Unchalli Falls, Magod Falls, Abbey Falls and Shivanasamudra Falls among other popular waterfalls.\n\nSeveral popular beaches dot the coastline, including Murudeshwara, Gokarna, Malpe and Karwar. In addition, Karnataka is home to several places of religious importance. Several Hindu temples including the famous Udupi Sri Krishna Matha, the Marikamba Temple at Sirsi, the Kollur Mookambika Temple, the Sri Manjunatha Temple at Dharmasthala, Kukke Subramanya Temple, Janardhana and Mahakali Temple at Ambalpadi, Sharadamba Temple at Shringeri attract pilgrims from all over India. Most of the holy sites of Lingayatism, like Kudalasangama and Basavana Bagewadi, are found in northern parts of the state. Shravanabelagola, Mudabidri and Karkala are famous for Jain history and monuments. Jainism had a stronghold in Karnataka in the early medieval period with Shravanabelagola as its most important centre. The Shettihalli Rosary Church near Shettihalli, an example of French colonial Gothic architecture, is a rare example of a Christian ruin, is a popular tourist site.\n\nKarnataka has become a center of health care tourism and has the highest number of approved health systems and alternative therapies in India. Along with some ISO certified government-owned hospitals, private institutions which provide international-quality services, Hospitals in Karnataka treat around 8,000 health tourists every year.",
+        "response": "Karnataka has an array of ancient sculptured temples, modern cities, scenic hill ranges, forests and beaches. Places such as Kudremukh, Madikeri and Agumbe are from western ghats which have scenic hills. Hampi, Pattadakal are on the list of UNESCO's World Heritage Sites. Badami and Aihole are famous for Chalukyan architecture. Several beaches like Murudeshwara, Gokarna, Malpe and Karwar are popular. Apart from this there are several Hindu temples including the famous Udupi Sri Krishna Matha, the Marikamba Temple at Sirsi, the Kollur Mookambika Temple, the Sri Manjunatha Temple at Dharmasthala, Kukke Subramanya Temple, Janardhana and Mahakali Temple at Ambalpadi, Sharadamba Temple at Sringeri attract pilgrims from all over India",
+        "category": "information_extraction",
+        "idx": 38
+    },
+    {
+        "instruction": "What was the Counter Reformation?",
+        "context": "",
+        "response": "The Counter Reformation was a Catholic religious movement which was in response to the Protestant Reformation and sought to strengthen the Catholic faith.",
+        "category": "open_qa",
+        "idx": 39
+    },
+    {
+        "instruction": "Tell me whether these are flowers or trees: Spruce, Calla Lily, Carnation, pine, beech, Orchid, oak, Tulip, Gerbera Daisy.",
+        "context": "",
+        "response": "Spruce is a tree.\nCalla Lily is a flower.\nCarnation is a flower. \npine is a tree.\nbeech is a tree.\nOrchid is a flower.\noak is a tree.\nTulip is a flower.\nGerbera Daisy is a flower.",
+        "category": "classification",
+        "idx": 40
+    },
+    {
+        "instruction": "What is an EV?",
+        "context": "",
+        "response": "EV stands for Electric Vehicle.  An electric vehicle is powered by a battery whereas the traditional vehicle or car is powered by gas.  The EV uses a type of electric motor as opposed to an internal combustion engine.  The EV battery can be charged by plugging into an electrical outlet.  EVs do not pollute the atmosphere.  They are eco-friendly.  Tesla Motors pioneered the EV industry.",
+        "category": "general_qa",
+        "idx": 41
+    },
+    {
+        "instruction": "What are some strategies to survive in nature?",
+        "context": "",
+        "response": "Here are some strategies to survive in nature:\n1. Build a shelter using trees, branches, leaves, and bushes\n2. Start a fire using wood and other materials\n3. Scavenge for berries and other plant based foods\n4. Look for a clean source of water\n5. Create makeshift clothing\n6. Set up traps to catch land animals and fish\n7. Create spears and other weapons to hunt animals",
+        "category": "brainstorming",
+        "idx": 42
+    },
+    {
+        "instruction": "What are some things that we can do to help the environment?",
+        "context": "",
+        "response": "- Minimize the use of plastics\n- Use public transport instead of personal vehicle\n- Carpooling\n- Buy only what you need\n- Buy products made of recycled materials\n- Recycle any plastics, glass or metals\n- Turn off and electrical appliance when not in use\n- Use reusable straws instead of plastic straws\n- Use energy efficient electrical appliance\n- Buy an electric car",
+        "category": "brainstorming",
+        "idx": 43
+    },
+    {
+        "instruction": "What is the best food?",
+        "context": "",
+        "response": "We all need food to survive. For many people, food is more than a necessity for survival. Food is a lifestyle. Food is art. For these foodies, let us consider, what is the best food. In this author's humble opinion, pizza is the best food. And here's why. First, it's universality. While hailing from Italy, or so they say, pizza is enjoyed across the globe. Second, it's very accessible, on a couple of fronts. If you want just a snack, you can have just one slice of pizza. If you need to feed a family, you can order a whole pizza pie. If you need to feed a large group - pizza can be ordered and received in large quantities. Then, there are the varieties of pizza. There are many different types of crust to suit your preferences. There are many different types of sauces, cheeses, and toppings that can put on pizza. Nearly an limitless combination of pizzas to suit all palettes. But the best reason is simply the depth of flavor in each and every bite. There is a delicious amount of complexity in every bite: a crunch, warm, maybe a little spice, a little sweet from the tomato sauce and of course added complexities from whichever toppings you choose. Don't let anyone tell you otherwise , pizza is the best food.",
+        "category": "creative_writing",
+        "idx": 44
+    },
+    {
+        "instruction": "what is a sql query?",
+        "context": "",
+        "response": "SQL stands for structured query language.  A SQL query is a statement using SQL syntax to get data returned for a specific question to business data you are trying to get answered.  SQL queries can be simple returns of data, and they can also include simple or complex aggregations over time.  SQL queries run against a database like Oracle Database, Azure's SQL Server Database, or Google's Bigquery.",
+        "category": "open_qa",
+        "idx": 45
+    },
+    {
+        "instruction": "How spicy is the hottest peppers",
+        "context": "",
+        "response": "The hottest pepper is the ghost pepper with a measure of a million scoville units.",
+        "category": "open_qa",
+        "idx": 46
+    },
+    {
+        "instruction": "Identify which instrument is string or percussion: Erxian, Alfaia",
+        "context": "",
+        "response": "Erxian is string, Alfaia is percussion.",
+        "category": "classification",
+        "idx": 47
+    },
+    {
+        "instruction": "Tell me if these are body parts or places: nose, beach, supermarket, feet, eyes, hand, mall, school, restaurant, heart",
+        "context": "",
+        "response": "The body parts are: nose, feet, eyes, hand, heart\nThe places are: beach, supermarket, mall, school, restaurant",
+        "category": "classification",
+        "idx": 48
+    },
+    {
+        "instruction": "How can I compose electronic music in 3 simple ways ?",
+        "context": "",
+        "response": "1 - Use an artificial intelligence backed music application (i.e. Amper Music, MuseNet, AIVA)\n2 - Use a software application to compose instruments partitions (i.e. FruityLoops Studio)\n3 - Play and record single instruments at home or studio and the mix them using an application",
+        "category": "brainstorming",
+        "idx": 49
+    },
+    {
+        "instruction": "Classify each of the following as either cities in Europe or in the United States: Sevilla, Boston, Miami, Dallas, New York, Paris, Frankfurt, Seattle, Milan",
+        "context": "",
+        "response": "Sevilla, Paris, Frankfurt and Milan are cities in Europe.\nBoston, Miami, Dallas, New York and Seattle are cities in the United States.",
+        "category": "classification",
+        "idx": 50
+    },
+    {
+        "instruction": "What is the game called Lacrosse",
+        "context": "",
+        "response": "Lacrosse is a team sport played with a lacrosse stick and a lacrosse ball. It is the oldest organized sport in North America,[ with its origins with the indigenous people of North America as early as the 12th century.The game was extensively modified by European colonists, reducing the violence, to create its current collegiate and professional form.\n\nPlayers use the head of the lacrosse stick to carry, pass, catch, and shoot the ball into the goal. The sport has four versions that have different sticks, fields, rules and equipment: field lacrosse, women's lacrosse, box lacrosse and intercrosse. The men's games, field lacrosse (outdoor) and box lacrosse (indoor), are contact sports and all players wear protective gear: helmet, gloves, shoulder pads, and elbow pads. The women's game is played outdoors and does not allow body contact but does allow stick to stick contact.The only protective gear required for women players is eyegear, while goalies wear helmets and protective pads. Both men's and women's field lacrosse have 6v6 versions played on smaller fields, gaining acceptance in multi-sport events. Intercrosse is a mixed-gender non-contact sport played indoors that uses an all-plastic stick and a softer ball.\n\nThe modern sport is governed by World Lacrosse and is the only international sport organization to recognize First Nations bands and Native American tribes as sovereign nations.The organization hosts the World Lacrosse Championship for men, the Women's Lacrosse World Cup, the World Indoor Lacrosse Championship for box lacrosse, and the Under-19 World Lacrosse Championships for both men and women. Each is held every four years. Lacrosse at the Summer Olympics has been contested at two editions of the Summer Olympic Games, 1904 and 1908.It was also held as a demonstration event at the 1928, 1932, and 1948 Summer Olympics.",
+        "category": "general_qa",
+        "idx": 51
+    },
+    {
+        "instruction": "What is a CRM?",
+        "context": "",
+        "response": "Customer relationship management is a process in which a business or other organization administers its interactions with customers, typically using data analysis to study large amounts of information.",
+        "category": "creative_writing",
+        "idx": 52
+    },
+    {
+        "instruction": "What were the Crusades?",
+        "context": "The Crusades were a series of religious wars initiated, supported, and sometimes directed by the Latin Church in the medieval period. The best known of these military expeditions are those to the Holy Land in the period between 1095 and 1291 that were intended to conquer Jerusalem and its surrounding area from Muslim rule. Beginning with the First Crusade, which resulted in the conquest of Jerusalem in 1099, dozens of military campaigns were organised, providing a focal point of European history for centuries. Crusading declined rapidly after the 15th century.",
+        "response": "The Crusades collectively refer religious wars in the medieval times. The Crusades are famously know today for expeditions into the Muslim Holy Land to capture lands in the name of European kings and religion from 1095-1291.",
+        "category": "summarization",
+        "idx": 53
+    },
+    {
+        "instruction": "When is the best time to visit San Francisco?",
+        "context": "",
+        "response": "The best time to visit San Francisco is right after summer, in September or October. Mark Twain once said the coldest winter he ever spent was a summer in San Francisco. That is because San Francisco has an Indian Summer, when the traditional Summer months are actually quite cold and windy. Starting in September and through October the weather is very moderate and usually sunny.",
+        "category": "general_qa",
+        "idx": 54
+    },
+    {
+        "instruction": "What are some defining qualities of authoritarianism?",
+        "context": "Authoritarianism is a political system characterized by the rejection of political plurality, the use of strong central power to preserve the political status quo, and reductions in the rule of law, separation of powers, and democratic voting. Political scientists have created many typologies describing variations of authoritarian forms of government. Authoritarian regimes may be either autocratic or oligarchic and may be based upon the rule of a party or the military. States that have a blurred boundary between democracy and authoritarianism have some times been characterized as \"hybrid democracies\", \"hybrid regimes\" or \"competitive authoritarian\" states.\n\nThe political scientist Juan Linz, in an influential 1964 work, An Authoritarian Regime: Spain, defined authoritarianism as possessing four qualities:\n\nLimited political pluralism, is realized with constraints on the legislature, political parties and interest groups.\nPolitical legitimacy is based upon appeals to emotion and identification of the regime as a necessary evil to combat \"easily recognizable societal problems, such as underdevelopment or insurgency.\"\nMinimal political mobilization, and suppression of anti-regime activities.\nIll-defined executive powers, often vague and shifting extend the power of the executive.\nMinimally defined, an authoritarian government lacks free and competitive direct elections to legislatures, free and competitive direct or indirect elections for executives, or both. Broadly defined, authoritarian states include countries that lack civil liberties such as freedom of religion, or countries in which the government and the opposition do not alternate in power at least once following free elections. Authoritarian states might contain nominally democratic institutions such as political parties, legislatures and elections which are managed to entrench authoritarian rule and can feature fraudulent, non-competitive elections. In contexts of democratic backsliding, scholars tend to identify authoritarian political leaders based on certain tactics, such as: politicizing independent institutions, spreading disinformation, aggrandizing executive power, quashing dissent, targeting vulnerable communities, stoking violence, and corrupting elections. Since 1946, the share of authoritarian states in the international political system increased until the mid-1970s but declined from then until the year 2000.",
+        "response": "1. Limited political pluralism or outright rejection of political pluralism.\n2. Lack of civil liberties\n3. Lack of free, fair and competitive elections\n4. So-called democratic institutions corrupted by authoritarian rule\n5. Use of election tactics such as spreading misinformation, politicizing independent institutions, quashing dissent, engaging in culture wars, targeting vulnerable communities, stoking violence, and aggrandizing executive power.\n6. Use of a strong central power to preserve the political status quo at the cost of basic democratic ideals such as the rule of law, separation of powers, and voting rights.",
+        "category": "summarization",
+        "idx": 55
+    },
+    {
+        "instruction": "What are some of the best business podcast to listen to?",
+        "context": "",
+        "response": "Planet Money, The Prof G Pod, Women & Money, The Indicator",
+        "category": "brainstorming",
+        "idx": 56
+    },
+    {
+        "instruction": "How do you replace a hole in the drywall?",
+        "context": "",
+        "response": "First you start by locating the nearest wooden studs and cut a square, larger than the hole and exposing up to one inch of each wooden stud.  Each wooden stud is typically sixteen inches apart - center to center.  And each wooden stud is typically two inches in width.  Second step is to carefully measure the open space after you've cut the square.  Take your time and measure as close to the existing drywall as possible.  Take 4 measurements of 2 in length and 2 in width to ensure accuracy.  Cut that square from your replacement drywall.  Shave sides with sandpaper for tight fit.  Once your replacement square fits, insert drywall screws into the sides of the drywall that will also go through the previously exposed wooden studs.  Once the new square is secure, you can layer ontop the drywall paste to let dry.  Sand the drywall paste over the seams of the square, and repeat as necessary until you have a uniform, smooth surface.  Apply paint over the entire workspace and let dry.",
+        "category": "general_qa",
+        "idx": 57
+    },
+    {
+        "instruction": "What city in Ireland is the band U2 from?",
+        "context": "U2 are an Irish rock band from Dublin, formed in 1976. The group consists of Bono (lead vocals and rhythm guitar), the Edge (lead guitar, keyboards, and backing vocals), Adam Clayton (bass guitar), and Larry Mullen Jr. (drums and percussion). Initially rooted in post-punk, U2's musical style has evolved throughout their career, yet has maintained an anthemic quality built on Bono's expressive vocals and the Edge's chiming, effects-based guitar sounds. Bono's lyrics, often embellished with spiritual imagery, focus on personal and sociopolitical themes. Popular for their live performances, the group have staged several ambitious and elaborate tours over their career.",
+        "response": "Dublin",
+        "category": "closed_qa",
+        "idx": 58
+    },
+    {
+        "instruction": "Why does oil float on water?",
+        "context": "",
+        "response": "Because oil has lesser density, it floats on water",
+        "category": "open_qa",
+        "idx": 59
+    },
+    {
+        "instruction": "What is renal compensation?",
+        "context": "Renal compensation is a mechanism by which the kidneys can regulate the plasma pH. It is slower than respiratory compensation, but has a greater ability to restore normal values. Kidneys maintain the acid-base balance through two mechanisms,- the secretion of H+ ions and the reabsorption of bicarbonate HCO3 from urine which is then released into the blood. The regulation of H+ ions and bicarbonate HCO3 is determined by the concentration of the two released within the urine. These mechanisms of secretion and reabsorption balance the pH of the bloodstream. A restored acid-base balanced bloodstream thus leads to a restored acid-base balance throughout the entire body.",
+        "response": "Renal compensation is the mechanism that the kidneys use to regulate plasma pH. It is a slower process than respiratory compensation, but increases the body's ability to restore normal values.",
+        "category": "information_extraction",
+        "idx": 60
+    },
+    {
+        "instruction": "What does the \"E\" stand for in Chuck E. Cheese?",
+        "context": "",
+        "response": "The \"E\" stands for \"Entertainment\"",
+        "category": "open_qa",
+        "idx": 61
+    },
+    {
+        "instruction": "What is the structure of Public Forum debate, as used in US debate competitions?",
+        "context": "",
+        "response": "A public forum debate takes place between two teams of two individuals each. For the assigned topic, one team argues for the affirmative (Pro) side, and the other argues for the negative (Con) side.\n\nThe debate is organized in a sequence of speeches according to the following outline:\n\u2022\tTeam 1 Constructive\n\u2022\tTeam 2 Constructive\n\u2022\t1st Crossfire\n\u2022\tTeam 1 Rebuttal\n\u2022\tTeam 2 Rebuttal\n\u2022\t2nd Crossfire\n\u2022\tTeam 1 Summary\n\u2022\tTeam 2 Summary\n\u2022\tGrand Crossfire\n\u2022\tTeam 1 Final Focus\n\u2022\tTeam 2 Final Focus\n\nAdditionally, each team is given 3 minutes of preparation time throughout the round, which they can choose to take before any of their speeches. The time duration of each stage may vary across different leagues.",
+        "category": "general_qa",
+        "idx": 62
+    },
+    {
+        "instruction": "What are the first and third eras of aircraft history mentioned in the text below and when did they end? Use a bullet list and the format {Name} ({Year}).",
+        "context": "Flying model craft and stories of manned flight go back many centuries; however, the first manned ascent \u2014 and safe descent \u2014 in modern times took place by larger hot-air balloons developed in the 18th century. Each of the two World Wars led to great technical advances. Consequently, the history of aircraft can be divided into five eras:\n\n- Pioneers of flight, from the earliest experiments to 1914.\n- First World War, 1914 to 1918.\n- Aviation between the World Wars, 1918 to 1939.\n- Second World War, 1939 to 1945.\n- Postwar era, also called the Jet Age, 1945 to the present day.",
+        "response": "- Pioneers of flight (1914)\n- Aviation between the World Wars (1939)",
+        "category": "information_extraction",
+        "idx": 63
+    },
+    {
+        "instruction": "Who is Robert Kiyosaki?",
+        "context": "",
+        "response": "Robert Kiyosaki is an American entrepreneur and author who became famous primarily due to his book Rich Dad Poor Dad, a book which many refer to as \"the bible of financial literacy\". He has acquired much of his wealth through investing in real estate successfully and teaching others financial skills that are not taught in typical school systems.",
+        "category": "open_qa",
+        "idx": 64
+    },
+    {
+        "instruction": "How many titles have Liverpool won?",
+        "context": "Domestically, the club has won 19 League titles, eight FA Cups, a record nine League Cups and 16 FA Community Shields. In international competitions, the club has won six European Cups, three UEFA Cups, four UEFA Super Cups\u2014all English records\u2014and one FIFA Club World Cup.",
+        "response": "Liverpool has won 19 League titles, 8 FA cups, 9 League cups, 16 FA community shields and 6 European cups.",
+        "category": "closed_qa",
+        "idx": 65
+    },
+    {
+        "instruction": "Why are peanuts not kosher for Passover.",
+        "context": "",
+        "response": "Peanuts are a type of legume. Legumes are banned as they are often mixed with wheat (and Jews typically only eat unleavened bread during Passover).",
+        "category": "general_qa",
+        "idx": 66
+    },
+    {
+        "instruction": "Why can helicopters not fly as fast as airplanes?",
+        "context": "",
+        "response": "In order to fly, aircraft need to produce lift. In airplanes, lift is generated by the air that's flowing over the wings. The faster the airplane flies, the more lift is generated. In helicopters on the other hand, lift is generated by the spinning rotor blades. If the helicopter is in motion, the blades will produce more lift on the side where they are moving in the helicopter's direction of travel (advancing), than on the side where they are moving in the opposite direction (retreating). This is called dissymetry of lift. The faster the helicopter flies, the bigger this dissymetry will get. The helicopter's maximum speed is equal to the speed at which the retreating blade would begin to stall.",
+        "category": "general_qa",
+        "idx": 67
+    },
+    {
+        "instruction": "How many dwarf planets are there in our solar system. Describe each of them",
+        "context": "",
+        "response": "There is only 1 dwarf planet in the inner solar system and it is Ceres. There are 4 other dwarf planets, but they are present outside of the Solar system. Ceres is the largest object in the asteroid belt between the Mars and the Jupiter. NASA's spacecraft Dawn visited Ceres in 2015.  Day time surface temperatures in Ceres span from -136 degrees Fahrenheit to -28 degrees  Fahrenheit",
+        "category": "creative_writing",
+        "idx": 68
+    },
+    {
+        "instruction": "What is FIFA?",
+        "context": "The recognised international governing body of football (and associated games, such as futsal and beach soccer) is FIFA. The FIFA headquarters are located in Z\u00fcrich, Switzerland. Six regional confederations are associated with FIFA; these are:\n\nAsia: Asian Football Confederation (AFC)\nAfrica: Confederation of African Football (CAF)\nEurope: Union of European Football Associations (UEFA)\nNorth/Central America & Caribbean: Confederation of North, Central American and Caribbean Association Football (CONCACAF)\nOceania: Oceania Football Confederation (OFC)\nSouth America: Confederaci\u00f3n Sudamericana de F\u00fatbol (South American Football Confederation; CONMEBOL)\nNational associations (or national federations) oversee football within individual countries. These are generally synonymous with sovereign states (for example, the Cameroonian Football Federation in Cameroon), but also include a smaller number of associations responsible for sub-national entities or autonomous regions (for example, the Scottish Football Association in Scotland). 211 national associations are affiliated both with FIFA and with their respective continental confederations.\n\nWhile FIFA is responsible for arranging competitions and most rules related to international competition, the actual Laws of the Game are set by the IFAB, where each of the UK Associations has one vote, while FIFA collectively has four votes.",
+        "response": "FIFA stands for F\u00e9d\u00e9ration internationale de football association. It is the main international governing body for the sport of soccer (called football internationally outside the US)",
+        "category": "summarization",
+        "idx": 69
+    },
+    {
+        "instruction": "From the passage note down the name of the countries which have most voting power. List the results in comma separated format.",
+        "context": "The World Bank is an international financial institution that provides loans and grants to the governments of low- and middle-income countries for the purpose of pursuing capital projects. The World Bank is the collective name for the International Bank for Reconstruction and Development (IBRD) and International Development Association (IDA), two of five international organizations owned by the World Bank Group. It was established along with the International Monetary Fund at the 1944 Bretton Woods Conference. After a slow start, its first loan was to France in 1947. In the 1970s, it focused on loans to developing world countries, shifting away from that mission in the 1980s. For the last 30 years, it has included NGOs and environmental groups in its loan portfolio. Its loan strategy is influenced by the United Nations' Sustainable Development Goals, as well as environmental and social safeguards.\n\nAs of 2022, the World Bank is run by a president and 25 executive directors, as well as 29 various vice presidents. IBRD and IDA have 189 and 174 member countries, respectively. The U.S., Japan, China, Germany and the U.K. have the most voting power. The bank aims loans at developing countries to help reduce poverty. The bank is engaged in several global partnerships and initiatives, and takes a role in working toward addressing climate change. The World Bank operates a number of training wings and it works with the Clean Air Initiative and the UN Development Business. It works within the Open Data Initiative and hosts an Open Knowledge Repository.\n\nThe World Bank has been criticized as promoting inflation and harming economic development, causing protests in 1988 and 2000. There has also been criticism of the bank's governance and response to the COVID-19 pandemic.",
+        "response": "U.S., Japan, China, Germany, U.K.",
+        "category": "information_extraction",
+        "idx": 70
+    },
+    {
+        "instruction": "From the passage mention the different educational institutions which Musk attended. Display the results in comma separated format.",
+        "context": "Musk attended Waterkloof House Preparatory School, Bryanston High School, and Pretoria Boys High School, from which he graduated. Musk applied for a Canadian passport through his Canadian-born mother, knowing that it would be easier to immigrate to the United States this way. While waiting for his application to be processed, he attended the University of Pretoria for five months.\n\nMusk arrived in Canada in June 1989 and lived with a second cousin in Saskatchewan for a year, working odd jobs at a farm and lumber mill. In 1990, he entered Queen's University in Kingston, Ontario. Two years later, he transferred to the University of Pennsylvania (UPenn), where he completed studies for a Bachelor of Arts degree in physics and a Bachelor of Science degree in economics from the Wharton School. Although Musk claims he earned the degrees in 1995, UPenn maintains it awarded them in 1997. He reportedly hosted large, ticketed house parties to help pay for tuition, and wrote a business plan for an electronic book-scanning service similar to Google Books.\n\nIn 1994, Musk held two internships in Silicon Valley: one at the energy storage startup Pinnacle Research Institute, which investigated electrolytic ultracapacitors for energy storage, and another at the Palo Alto\u2013based startup Rocket Science Games. In 1995, he was accepted to a PhD program in materials science at Stanford University. However, Musk decided to join the Internet boom, instead dropping out two days after being accepted and applied for a job at Netscape, to which he reportedly never received a response.",
+        "response": "Waterkloof House Preparatory School, Bryanston High School, Pretoria Boys High School, University of Pretoria, Queen's University, University of Pennsylvania (UPenn)",
+        "category": "information_extraction",
+        "idx": 71
+    },
+    {
+        "instruction": "Where is Salvador Brazil?",
+        "context": "",
+        "response": "Salvador is a Brazilian municipality and capital city of the state of Bahia. Situated in the Zona da Mata in the Northeast Region of Brazil, Salvador is recognized throughout the country and internationally for its cuisine, music and architecture. The African influence in many cultural aspects of the city makes it a center of Afro-Brazilian culture. As the first capital of Colonial Brazil, the city is one of the oldest in the Americas and one of the first planned cities in the world, having been established during the Renaissance period. Its foundation in 1549 by Tom\u00e9 de Sousa took place on account of the implementation of the General Government of Brazil by the Portuguese Empire.",
+        "category": "open_qa",
+        "idx": 72
+    },
+    {
+        "instruction": "What are some iconic Renaissance period artists?",
+        "context": "",
+        "response": "The Renaissance period had a lot of iconic artists. The following are some of the most iconic:\n\n- Donatello (1386-1466). Born in Florence, he studied classical sculpture and used this to develop a complete Renaissance style in sculpture.\n- Sandro Boticelli (1445-1510). His paintings have been seen to represent the linear grace of late Italian Gothic and some Early Renaissance painting, even though they date from the latter half of the Italian Renaissance period.\n- Leonardo da Vinci (1452-1519). He was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect.\n- Michelangelo (1475-1564). He was an Italian sculptor, painter, architect and poet of the High Renaissance. \n- Raphael (1483-1520). Raphael was an Italian painter and architect of the High Renaissance.\n- Caravaggio (1571-1610). Caravaggio was an Italian painter active in Rome for most of his artistic life.",
+        "category": "brainstorming",
+        "idx": 73
+    },
+    {
+        "instruction": "Why is it so difficult to make every free throw in basketball?",
+        "context": "",
+        "response": "Making every free throw in basketball requires the perfect form every time, allowing for only a slight variation in shooting motion. Anything beyond that will cause the ball to miss the sweet spot, resulting in a miss. Although muscle memory is very powerful, it is difficult to execute the exact same form every time. As a result, it requires a lot of practice in order to be good at shooting free throws.",
+        "category": "general_qa",
+        "idx": 74
+    },
+    {
+        "instruction": "Who wrote Howl's Moving Castle?",
+        "context": "Howl's Moving Castle is a fantasy novel by British author Diana Wynne Jones, first published in 1986 by Greenwillow Books of New York. It was a runner-up for the annual Boston Globe\u2013Horn Book Award, and won the Phoenix Award twenty years later. It was adapted into a critically acclaimed 2004 animated film of the same name, which was nominated for the Academy Award for Best Animated Feature.",
+        "response": "Howl's Moving Castle is a fantasy novel by British author Diana Wynne Jones.",
+        "category": "closed_qa",
+        "idx": 75
+    },
+    {
+        "instruction": "Why Interlaken is famous",
+        "context": "",
+        "response": "Because of it's beautiful village. There are many wonderful scenic village adjacent to mountains and fountains.",
+        "category": "brainstorming",
+        "idx": 76
+    },
+    {
+        "instruction": "here is some information about Ross McLean, how many years was Ross president of the Leavue of help for sick and elderly?",
+        "context": "He was a member of the Australian Broadcasting Corporation Board of Directors for five years from 1999. He was chair of the National Childcare Accreditation Council for four years from 1996 to 1999. He was president of the Association for the Blind of WA from 1995 to 1999. He was president of the League of Help for the Sick and Elderly of WA from 1995 to 1997. In December 2001 he resigned as chairman of the Fremantle Football Club in the wake of revelations that the club had exceeded the salary cap for the 2001 season. He was a member of the Board of the Western Australian Cricket Association from 2004 to 2012.",
+        "response": "2 years, between 1995 to 1997.",
+        "category": "closed_qa",
+        "idx": 77
+    },
+    {
+        "instruction": "What tools do people use to communicate in 2023?",
+        "context": "",
+        "response": "There are many tools people use to communicate in 2023.  Email, phone, text message, and direct message on social media platforms are some of the most common; however, people still write letters and send post cards to one another at times as they have for generations.  Another form of communication is in-person communication where groups of people will get together and communicate on a given topic.  This could be at work in a meeting or a group of friends getting together for dinner to catch up.  This form of communication requires no other tools than one's own voice.",
+        "category": "general_qa",
+        "idx": 78
+    },
+    {
+        "instruction": "Give me a list of books that are long and hard to read. The sort of books with which I could impress someone who read a lot.",
+        "context": "",
+        "response": "When talking to someone well read, I would go with some of the classics of literature. The following books require a very detailed read in order to be able to understand them, due to the complex topics they analyze. They are long, but also considered masterpieces:\n\n- \"Crime and Punishment\" by Dostoievsky\n- \"Ulysses\" by James Joyce\n- \"The Magic Mountain\" by Thomas Mann\n- \"Gravity's Rainbow\" by Thomas Pynchon\n- \"Don Quixote\" by Miguel de Cervantes\n- \"Infinite Jest\" by David Foster Wallace",
+        "category": "brainstorming",
+        "idx": 79
+    },
+    {
+        "instruction": "Is it wrong to split the infinitive?",
+        "context": "",
+        "response": "First, let's establish the meaning of a split infinitive. In simple terms the infinitive is the grammatical construct in which a verb is preceded by the word 'to': hence, 'to walk', 'to talk', 'to reason'. As a side-note, it's probably worth exploring whether the 'verbification' of nouns is a good thing: personally, I take issue with this and feel that examples such as 'to medal', meaning 'to win a medal at a sporting event', should never have been visited on the English language. But that's another discussion entirely. Returning to the infinitive, the split occurs when another word (usually an adverb) is placed between the word 'to' and its corresponding verb. Probably the most famous split infinitive occurs in the opening sequence of every episode of the classic and original TV show, Star Trek, with the lines:\n\"Space: The final frontier\nThese are the voyages of the Starship, Enterprise;\nIts five year mission:\nto explore strange new worlds;\nto seek out new life and new civilizations;\nto boldly go where no man has gone before.\"\nNote that final line: 'to boldly go'. Never has an infinitive been split so boldly before or since. Those who are grammatical pedants will have shuddered at this every time (and probably ended up preferring Star Wars to Star Trek as a consequence) but through those original seventy-nine episodes and their many repeat showings, the split infinitive has subtly embedded itself in our lexicon. \nSo, to return to the question, is it wrong to split the infinitive? Since language is constantly evolving, influenced by the whims and practices of each generation, the answer must be 'no'. On the whole sentences tend to flow more freely and with greater elan if infinitives aren't split and pesky adverbs are kept in their place either before or after ('to go boldly' or 'boldly to go') but sometimes one has to admit that splitting works, and we should be thankful for the colour that brings to the language we hear daily. Who nowadays wouldn't want to boldly go?",
+        "category": "open_qa",
+        "idx": 80
+    },
+    {
+        "instruction": "In which years did Ernie Wilson play his first and last grand finals?",
+        "context": "Ernest George 'Ernie' Wilson (18 October 1900 \u2013 7 June 1982) was an Australian rules footballer who played for Collingwood in the Victorian Football League (VFL).\n\nWilson featured in the Collingwood side during a strong era, playing in no less than six Grand Finals. He was on a half forward flank in their 1919 premiership but was used mostly as a defender. His other Grand Final appearances came in 1920, 1922, 1925 and 1926 while he was a half back flanker in the Collingwood premiership team of 1927. He could have added another in 1928, but lost his place in the side after the drawn semi final against Melbourne which would be his last game. In 1929 he played with Northcote in the VFA. He was reported in the last few minutes of the Grand Final which Northcote won by 5 points. He received a 12-month suspension for the offense and returned to Collingwood in 1930 where he captain coached the reserve team until the end of the 1933 season. He also represented Victoria at interstate football, a total of nine times, including in the 1924 Hobart Carnival. He remains the only player to have represented Victoria whilst under suspension from the VFL.",
+        "response": "He played his first grand final in 1919, and his last in 1927.",
+        "category": "information_extraction",
+        "idx": 81
+    },
+    {
+        "instruction": "Select the dishes that are Chinese from this menu: hamburger, pizza, fried rice, soup dumplings, spaghetti, scallion pancakes.",
+        "context": "",
+        "response": "From this list, the dishes that can be found in a Chinese menu are fried rice, soup dumplings, and scallion pancakes.",
+        "category": "classification",
+        "idx": 82
+    },
+    {
+        "instruction": "Which of the following races do participants run in? A marathon, a triathlon, an aqua bike?",
+        "context": "",
+        "response": "A marathon and a triathlon",
+        "category": "classification",
+        "idx": 83
+    },
+    {
+        "instruction": "What programming languages does freeCodeCamp teach to students?",
+        "context": "freeCodeCamp (also referred to as Free Code Camp) is a non-profit organization that consists of an interactive learning web platform, an online community forum, chat rooms, online publications and local organizations that intend to make learning web development accessible to anyone. Beginning with tutorials that introduce students to HTML, CSS and JavaScript, students progress to project assignments that they complete either alone or in pairs. Upon completion of all project tasks, students are partnered with other nonprofits to build web applications, giving the students practical development experience.",
+        "response": "freeCodeCamp is a non-profit organization that has tutorials that introduce students to HTML, CSS and JavaScript.",
+        "category": "closed_qa",
+        "idx": 84
+    },
+    {
+        "instruction": "What is the Mahatma Gandhi Marg (Allahabad)?",
+        "context": "",
+        "response": "Mahatama Gandhi Marg, also known as MG Marg, is one of the major streets in Allahabad, named after Mahatma Gandhi. It stretches from Allahabad High Court in the east making intersection with PD Tondon Marg and Nyaya Marg, passing through Civil Lines to the west until it ends at the esplanade. It is lined by shops, malls and a number of historical and religious buildings and offices including notable landmarks like All Saints Cathedral and Alfred Park in the north. It intersects with Sardar Patel Marg making Subash Cross, a notable town square of the city.\n\nThe road was formerly Canning Road, named after Lord Canning, Governor-General of India from 1856 to 1862.",
+        "category": "open_qa",
+        "idx": 85
+    },
+    {
+        "instruction": "What is the smallest bird?",
+        "context": "Hummingbirds have varied specialized characteristics to enable rapid, maneuverable flight, exceptional metabolic capacity, adaptations to high altitude, sensitive visual and communication abilities, and long-distance migration in some species. Among all birds, male hummingbirds have the widest diversity of plumage color, particularly in blues, greens, and purples. Hummingbirds are the smallest mature birds, measuring 7.5\u201313 cm (3\u20135 in) in length. The smallest is the 5 cm (2.0 in) bee hummingbird, which weighs less than 2.0 g (0.07 oz), and the largest is the 23 cm (9.1 in) giant hummingbird, weighing 18\u201324 grams (0.63\u20130.85 oz). Noted for long beaks, hummingbirds are specialized for feeding on flower nectar, but all species also consume small insects.",
+        "response": "Hummingbird is the smallest bird.",
+        "category": "closed_qa",
+        "idx": 86
+    },
+    {
+        "instruction": "What advice would you give to FBLA competitors for future years?",
+        "context": "",
+        "response": "Please do not procrastinate and really focus on the prejudged part of the portion of your report, because that is a prerequisite if you want to compete at states. Also, make sure to thoroughly read the rubric so you hit every single requirement on the rubric, especially the part about providing a recommendation and plan. As for your recommendation, try to come up with a creative acronym to make it memorable. For us, we thought of CHIP, as the topic was about microchips. Although notes are technically allowed, every single team memorizes their presentation, so make sure to have your presentation very well memorized by the conference. Also it is important to get plenty of sleep before the night of the competition, eat breakfast, and act confident when you are presenting. Finally, if you do make a mistake it is okay (part of the learning), just don't act surprised and keep going!",
+        "category": "general_qa",
+        "idx": 87
+    },
+    {
+        "instruction": "Using examples taken from the text give me a rundown of the primary environments found in Yellowstone National Park.",
+        "context": "Yellowstone National Park is an American national park located in the western United States, largely in the northwest corner of Wyoming and extending into Montana and Idaho. It was established by the 42nd U.S. Congress with the Yellowstone National Park Protection Act and signed into law by President Ulysses S. Grant on March 1, 1872. Yellowstone was the first national park in the U.S. and is also widely held to be the first national park in the world. The park is known for its wildlife and its many geothermal features, especially the Old Faithful geyser, one of its most popular. While it represents many types of biomes, the subalpine forest is the most abundant. It is part of the South Central Rockies forests ecoregion.\n\nWhile Native Americans have lived in the Yellowstone region for at least 11,000 years, aside from visits by mountain men during the early-to-mid-19th century, organized exploration did not begin until the late 1860s. Management and control of the park originally fell under the jurisdiction of the U.S. Department of the Interior, the first Secretary of the Interior to supervise the park being Columbus Delano. However, the U.S. Army was eventually commissioned to oversee the management of Yellowstone for 30 years between 1886 and 1916. In 1917, administration of the park was transferred to the National Park Service, which had been created the previous year. Hundreds of structures have been built and are protected for their architectural and historical significance, and researchers have examined more than a thousand archaeological sites.\n\nYellowstone National Park spans an area of 3,468.4 sq mi (8,983 km2), comprising lakes, canyons, rivers, and mountain ranges. Yellowstone Lake is one of the largest high-elevation lakes in North America and is centered over the Yellowstone Caldera, the largest super volcano on the continent. The caldera is considered a dormant volcano. It has erupted with tremendous force several times in the last two million years. Well over half of the world's geysers and hydrothermal features are in Yellowstone, fueled by this ongoing volcanism. Lava flows and rocks from volcanic eruptions cover most of the land area of Yellowstone. The park is the centerpiece of the Greater Yellowstone Ecosystem, the largest remaining nearly-intact ecosystem in the Earth's northern temperate zone. In 1978, Yellowstone was named a UNESCO World Heritage Site.\n\nHundreds of species of mammals, birds, fish, reptiles, and amphibians have been documented, including several that are either endangered or threatened. The vast forests and grasslands also include unique species of plants. Yellowstone Park is the largest, and most famous megafauna location in the contiguous United States. Grizzly bears, cougars, wolves, and free-ranging herds of bison and elk live in this park. The Yellowstone Park bison herd is the oldest and largest public bison herd in the United States. Forest fires occur in the park each year; in the large forest fires of 1988, nearly one-third of the park was burnt. Yellowstone has numerous recreational opportunities, including hiking, camping, boating, fishing, and sightseeing. Paved roads provide close access to the major geothermal areas as well as some of the lakes and waterfalls. During the winter, visitors often access the park by way of guided tours that use either snow coaches or snowmobiles.",
+        "response": "Generally considered to be the first national park in the world, Yellowstone National Park is significant in size, covering parts of Wyoming, Montana, and Idaho, and acts as the largest remaining nearly-intact ecosystems.  The park is able to support many types of wildlife including Grizzly bears, cougars, wolves, mountain goats, free-ranging herds of bison and elk, as well as many types of birds and fish, because of the diversity of habitats.  Forests and grasslands dominate some areas of the park, while others offer the completely different experience of mountain ranges, lakes, and rolling prairies.  Some of the park's most unique features are the geysers and hydrothermal features.  In fact, Yellowstone is home to over half of the world's features like these.  This is due to the entire park being centered over the Yellowstone Caldera, the largest super volcano on the continent.",
+        "category": "summarization",
+        "idx": 88
+    },
+    {
+        "instruction": "Where is Danny Brannagan from",
+        "context": "Danny Brannagan (born July 4, 1986) is a former professional Canadian football quarterback for the Toronto Argonauts of the Canadian Football League.\n\nEarly years\nBrannagan attended high school at Assumption Catholic Secondary School in Burlington where in his 5th and final year in 2004, he led the Assumption Crusaders to the GHAC finals where they defeated St. Jean de Brebeuf in a thriller, with the final score 29-28. Trailing by 27 points with less than 8 minutes to play, Brannagan led Assumption's offense to an amazing comeback, taking the lead with under 2 minutes left to play.",
+        "response": "Danny Brannagan (born July 4, 1986) is a former professional Canadian football quarterback for the Toronto Argonauts of the Canadian Football League.\n\nBrannagan attended high school at Assumption Catholic Secondary School in Burlington where in his 5th and final year in 2004, he led the Assumption Crusaders to the GHAC finals where they defeated St. Jean de Brebeuf in a thriller, with the final score 29-28. Trailing by 27 points with less than 8 minutes to play, Brannagan led Assumption's offense to an amazing comeback, taking the lead with under 2 minutes left to play.",
+        "category": "summarization",
+        "idx": 89
+    },
+    {
+        "instruction": "Name a few cities worldwide where traffic congestion is an issue",
+        "context": "",
+        "response": "Los Angeles, Mumbai, Manila, Jakarta, Bangkok, Sao Paulo",
+        "category": "open_qa",
+        "idx": 90
+    },
+    {
+        "instruction": "Is a vegan diet health for the average person?",
+        "context": "",
+        "response": "Vegan diets can be very healthy depending on food choices as compared to the common American diet. It helps to choose organic foods as part of your dietary choices. It is quite easy to include good proteins and low glycemic carbs to power one's activities and brain functions. As long as you try and stay away from sugar-filled choices, most people feel better and loose weight on a well-planned vegan diet. This also keeps people off of high fat and high sugar fast foods, not healthy for anyone.",
+        "category": "creative_writing",
+        "idx": 91
+    },
+    {
+        "instruction": "Give me examples of German auto manufacturers still operating.",
+        "context": "",
+        "response": "BMW, Volkswagen, Mercedes-Benz, Audi, Porsche, Opel.",
+        "category": "brainstorming",
+        "idx": 92
+    },
+    {
+        "instruction": "What are the top 5 rock bands of all time?",
+        "context": "",
+        "response": "The top 5 rock bands of all time is a difficult question as most individuals have different tastes and like various versions of rock.  There could be an argument that U2 belongs on that list given it's extensive catalog of music and presence on a global stage.  Others that might be considered include Led Zeppelin, The Grateful Dead, KISS, Radiohead.  This questions really comes down to what bands have grossed the most from Album sales & Touring receipts.  Any interesting question no doubt but comes down to their commercial success as well as the likes & dislikes of the fan.",
+        "category": "brainstorming",
+        "idx": 93
+    },
+    {
+        "instruction": "Extract a list of poems and the year they were published in the following form: {Poem name}: {Year published}\n\nAnd sort the list chronologically",
+        "context": "Piombino's first published poems appeared in 1965 in American Weave Literary Journal. Throughout the 1970s, he continued to publish in small literary journals, such as The World, Dodgems, Telephone, and Roof.\n\nHis first volume of poetry, titled simply Poems, was published by the Sun & Moon Press in 1988 and won an Author's Recognition Award from the Postgraduate Center for Mental Health in 1992.[citation needed] His second chapbook, Light Street, did not appear until 1996. It was followed by Theoretical Objects (1999), a collection of manifestos, aphorisms, essays, and seemingly autobiographical prose poems.\n\nPiombino's poetry took a different turn with Hegelian Honeymoon (2004), in which he moved away from the conventions of Language poetry to explore more traditional forms. Inspired by the poetry that accompanied an exhibition of Japanese calligraphy, the poems are a cross between haiku and aphorism. The poems were originally published on the SUNY/Buffalo poetics list-serve before being published in chapbook form by Chax Press.",
+        "response": "Sure, here is a chronologically-sorted list of poems and the year they were published:\n\nPoems: 1988\nLight Street: 1996\nTheoretical Objects: 1999\nHegelian Honeymoon: 2004",
+        "category": "information_extraction",
+        "idx": 94
+    },
+    {
+        "instruction": "What is a typical Dutch tradition when a baby is born?",
+        "context": "",
+        "response": "When a baby is born in the Netherlands, the typical traditional Dutch snack you can expect to be served when visiting the proud new parents is \"Beschuit met muisjes\". It consists of beschuit, which is a round, toasted, dry, and crunchy rusk,  smeared butter, covered in \"muisjes\" (literal translation is little mice), which are sugar-coated aniseeds. The colour of the mice will pink if the baby is a girl, and blue for a boy.",
+        "category": "open_qa",
+        "idx": 95
+    },
+    {
+        "instruction": "How many Grammy Awards has Bad Bunny won?",
+        "context": "",
+        "response": "Bad Bunny has won 2 Grammy Awards and has been nominated for 6",
+        "category": "open_qa",
+        "idx": 96
+    },
+    {
+        "instruction": "Given this paragraph about rivers in Europe, tell me what are the two longest rivers in Europe.",
+        "context": "The commercial and geopolitical importance of rivers is not ranked here. As a transportation artery, a river may unite a region commercially and economically, but major rivers, as barriers to travel, may also form political boundaries between states. The Danube, the second longest river in Europe, is notable for flowing through or past ten countries; the Rhine through or past six. The Volga, the longest river in Europe, unites a huge region of European Russia; eleven of the twenty largest cities in Russia lie on its banks. The Loire and the Po unite important regions within France and Italy respectively. The most important rivers in Europe include Rhone, Elbe, Oder, Tagus, Thames, Don and Dnieper, among others.",
+        "response": "The two longest rivers in Europe are the Volga and the Danube.",
+        "category": "closed_qa",
+        "idx": 97
+    },
+    {
+        "instruction": "Which second-season episode of Game of Thrones did Neil Marshall direct?",
+        "context": "",
+        "response": "Neil Marshall directed the 9th episode of the second season of Game of Thrones, titled \"Blackwater\"",
+        "category": "open_qa",
+        "idx": 98
+    },
+    {
+        "instruction": "Is the person who invented bitcoin Japanese?",
+        "context": "Satoshi Nakamoto (born 5 April 1975) is the name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation. As part of the implementation, Nakamoto also devised the first blockchain database. Nakamoto was active in the development of bitcoin up until December 2010.\n\nThere has been widespread speculation about Satoshi Nakamoto's true identity, with a variety of people posited as the person or persons behind the name. Though Nakamoto's name is Japanese, and he stated in 2012 that he was a man living in Japan, most of the speculation has involved software and cryptography experts in the United States or Europe.",
+        "response": "The answer is uncertain because this man was presumed to be living in Japan but he or she could be from Europe or American or anywhere in the world.",
+        "category": "closed_qa",
+        "idx": 99
+    },
+    {
+        "instruction": "When building a pre-stained shelf from Ikea, classify each of the following as useful or not useful for the task: a wooden dowel, a watercolor paint kit, a windowpane, a rubber mallet, a multitool, a screwdriver.",
+        "context": "",
+        "response": "Wooden dowel: useful, a watercolor paint kit: not useful, a windowpane: not useful, a rubber mallet: useful, a multitool: useful, a screwdriver: useful.",
+        "category": "classification",
+        "idx": 100
+    },
+    {
+        "instruction": "What is wine?",
+        "context": "Wine is an alcoholic drink typically made from fermented grapes. Yeast consumes the sugar in the grapes and converts it to ethanol and carbon dioxide, releasing heat in the process. Different varieties of grapes and strains of yeasts are major factors in different styles of wine. These differences result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the grape's growing environment (terroir), and the wine production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines can be made by fermentation of other fruit crops such as plum, cherry, pomegranate, blueberry, currant and elderberry.",
+        "response": "Wine is an alcoholic drink typically made from fermented grapes.",
+        "category": "closed_qa",
+        "idx": 101
+    },
+    {
+        "instruction": "Snow or Desert",
+        "context": "",
+        "response": "Desert, because snow will kill you instantly for a night",
+        "category": "brainstorming",
+        "idx": 102
+    },
+    {
+        "instruction": "What are five totally distinct, creative ways to describe the usefulness of a broken stapler?",
+        "context": "",
+        "response": "While a broken stapler may not have many obvious uses, there are a few ways to find utility from this broken piece of office equipment. First, and as long as the stapler is broken, Stephen Root, otherwise known as Milton from Office Space, would no longer have a reason to take revenge on Initech. Secondly, you can use the broken stapler to store additional staples for staplers that are in fact working. A third use, depending on the nature of the break, would be to use the stapler to get a refund from Office Max. Fourth, it could be used as a prank in the office to watch people attempt to staple pieces of paper after using the copy machine (as long as the copy machine, another notoriously broken piece of office equipment, actually works). Lastly, and probably most obvious, a broken stapler could be used as a paper weight.",
+        "category": "brainstorming",
+        "idx": 103
+    },
+    {
+        "instruction": "Tell me which of these Australian cities are on the coast and which are inland. Brisbane, Melbourne, Canberra, Adelaide, Hobart, Darwin and Perth.",
+        "context": "",
+        "response": "Brisbane, Melbourne, Adelaide, Hobart, Darwin, Perth are all coastal Australian cities. Canberra is an inland Australian city.",
+        "category": "classification",
+        "idx": 104
+    },
+    {
+        "instruction": "What kind of method is Transfer printing",
+        "context": "",
+        "response": "Transfer printing is a method of decorating pottery or other materials using an engraved copper or steel plate from which a monochrome print on paper is taken which is then transferred by pressing onto the ceramic piece. Pottery decorated using the technique is known as transferware or transfer ware.\n\nIt was developed in England from the 1750s on, and in the 19th century became enormously popular in England, though relatively little used in other major pottery-producing countries. The bulk of production was from the dominant Staffordshire pottery industry. America was a major market for English transfer-printed wares, whose imagery was adapted to the American market; several makers made this almost exclusively.\n\nThe technique was essential for adding complex decoration such as the Willow pattern to relatively cheap pottery. In particular, transfer printing brought the price of a matching dinner service low enough for large numbers of people to afford.\n\nApart from pottery, the technique was used on metal, and enamelled metal, and sometimes on wood and textiles. It remains used today, although mostly superseded by lithography. In the 19th century methods of transfer printing in colour were developed.",
+        "category": "open_qa",
+        "idx": 105
+    },
+    {
+        "instruction": "Which is a species of fish? Herring or Hearing",
+        "context": "",
+        "response": "Herring",
+        "category": "classification",
+        "idx": 106
+    },
+    {
+        "instruction": "Name a song The Mo is best known for that is not named after a dairy product.",
+        "context": "The Mo, also known simply as Mo, was a Dutch pop band best remembered for the 1980s hits \"Fred Astaire\" and \"Cheese.\" The band was known to be an experimental pop band during the new wave era.",
+        "response": "Fred Astaire",
+        "category": "closed_qa",
+        "idx": 107
+    },
+    {
+        "instruction": "Name some of the popular gaming consoles in the 2020s",
+        "context": "",
+        "response": "PlayStation 5, Xbox series X, Nintendo Switch, and Steam Deck",
+        "category": "open_qa",
+        "idx": 108
+    },
+    {
+        "instruction": "Who is Luke Skywalker's parents?",
+        "context": "",
+        "response": "Luke Skywalker's parents are Padme Amidala and Anakin Skywalker (also known as Darth Vader)",
+        "category": "open_qa",
+        "idx": 109
+    },
+    {
+        "instruction": "Classify the eight planets of Earth's solar system as rocky or gaseous, according to their primary composition.",
+        "context": "",
+        "response": "Mercury - rocky\nVeuns - rocky\nEarth - rocky\nMars - rocky\nJupiter - gaseous\nSaturn - gaseous\nUranus - gaseous\nNeptune - gaseous",
+        "category": "classification",
+        "idx": 110
+    },
+    {
+        "instruction": "What is Prometheus?",
+        "context": "",
+        "response": "Prometheus is an open-source system for monitoring services and alerts based on a time series data model. Prometheus collects data and metrics from different services and stores them according to a unique identifier\u2014the metric name\u2014and a time stamp.",
+        "category": "open_qa",
+        "idx": 111
+    },
+    {
+        "instruction": "Does the position of a dog's tail communicate how it is feeling?",
+        "context": "",
+        "response": "Yes, the position of a dog's tail will communicate how the dog is feeling. For example, if a dog's tail wags back and forth, the dog feels relaxed. If a dog's tail is standing straight up, the dog is alert and tense. When a dog's tail is tucked down low, it is nervous. If the dog's tail is moving in circles, the dog is happy.",
+        "category": "open_qa",
+        "idx": 112
+    },
+    {
+        "instruction": "Which film holds the record for most Academy Award wins?",
+        "context": "",
+        "response": "Three films own the record for the most Academy Award wins. They are Titanic, Ben Hur, and Lord of the Rings: Return of the King",
+        "category": "open_qa",
+        "idx": 113
+    },
+    {
+        "instruction": "What is Adventures of Tintin?",
+        "context": "The Adventures of Tintin (French: Les Aventures de Tintin [lez\u203fav\u0251\u0303ty\u0281 d\u0259 t\u025b\u0303t\u025b\u0303]) is a series of 24 bande dessin\u00e9e albums created by Belgian cartoonist Georges Remi, who wrote under the pen name Herg\u00e9. The series was one of the most popular European comics of the 20th century. By 2007, a century after Herg\u00e9's birth in 1907, Tintin had been published in more than 70 languages with sales of more than 200 million copies, and had been adapted for radio, television, theatre, and film.",
+        "response": "Adventures of Tinting is a very popular comic book series created by Belgian cartoonist Georges Remi who wrote under the pen name Herge'. It is a series of 24 comic books that have been published in 70 languages with sales of 200 million copies.",
+        "category": "information_extraction",
+        "idx": 114
+    },
+    {
+        "instruction": "Give me a bulleted list of movie ideas.",
+        "context": "",
+        "response": "- The President of the United States and a gorilla become best friends. The gorilla lives in the White House and causes all sorts of scandals. Eventually the American people learn to love the gorilla and elect him as the next president.\n- An undercover cop gets has a great idea for an invention (a voice box that makes you talk in an accent). He tries to get his idea patented and marketed all while not blowing his cover.\n- A war movie where everyone in a platoon deserts together and goes and starts a new community on an isolated island.",
+        "category": "brainstorming",
+        "idx": 115
+    },
+    {
+        "instruction": "What is the capital of Australia and when was it founded?",
+        "context": "",
+        "response": "The capital of Australia is Canberra. It was formally founded and named in 1913. The creation of Canberra followed a lengthy dispute over whether Sydney or Melbourne should be the capital. The word \"Canberra\" is derived from the name of the indigenous Ngunnawal clan who have resided on the land for over 21,000 years.",
+        "category": "open_qa",
+        "idx": 116
+    },
+    {
+        "instruction": "Was Richard Nixon born in California?",
+        "context": "Richard Milhous Nixon was born on January 9, 1913, in what was then the township precinct of Yorba Linda, California, in a house built by his father, located on his family's lemon ranch",
+        "response": "Richard Nixon was born in Yorba Linda, CA which is located in Orange County.",
+        "category": "closed_qa",
+        "idx": 117
+    },
+    {
+        "instruction": "Tell me whether these operation systems are open-source of proprietary; Ubuntu, iOS , Debian, Fedora, CentOS, macOS, Open Suse, Windows",
+        "context": "",
+        "response": "Definitely I can do that. Ubuntu, Fedora, Debian, CentOS and Open Suse are open-source operating systems. On the other hand, Windows, macOS and iOS are proprietary.",
+        "category": "classification",
+        "idx": 118
+    },
+    {
+        "instruction": "Tell me which of these things are fruits or vegetables: Carrot, Apple, Orange, Potato, Peas, Broccoli, Pears",
+        "context": "",
+        "response": "From the list you provided: Carrot, Potato, Peas, and Broccoli are Vegetables. \n\nThe rest are fruits: Apples, Oranges and Pears.",
+        "category": "classification",
+        "idx": 119
+    },
+    {
+        "instruction": "Which of the achievements listed in the below passage would be considered the best example of an \"outlier\" for a single NBA game?",
+        "context": "After the Lakers lost the 2004 NBA Finals, O'Neal was traded and Bryant became the cornerstone of the franchise. He led the NBA in scoring in the 2005\u201306 and 2006\u201307 seasons and was named league MVP in 2008. On January 22, 2006, he scored a career-high 81 points; the second most points scored in a single NBA game, behind Wilt Chamberlain's 100-point game. Bryant led the team to consecutive championships in 2009 and 2010, being named NBA Finals MVP on both occasions. He continued to be among the premier players in the league through the 2012\u201313 season, when he suffered a torn achilles tendon at age 34. His next two seasons were cut short by injuries to his knee and shoulder, respectively. Citing physical decline, Bryant retired after the 2015\u201316 season. In 2017, the Lakers retired both his Nos. 8 and 24, making him the only player in NBA history to have multiple numbers retired by the same franchise.",
+        "response": "Kobe Bryant scoring 81 points in a single NBA game is an outlier. For context, Kobe averaged 25 points per game for his NBA career. 81 points in one game is an outlier for any NBA player in history.",
+        "category": "summarization",
+        "idx": 120
+    },
+    {
+        "instruction": "Classify the numbers based on their divisibility by 5 or 3\n15, 55, 33, 50, 99",
+        "context": "",
+        "response": "Divisible by 3: 15, 33, 99\nDivisible by 5: 15, 55, 50",
+        "category": "classification",
+        "idx": 121
+    },
+    {
+        "instruction": "Extract the names of the cities where UNESCO has field offices in Asia and Pacific. Separate them with a semi-colon",
+        "context": "Field offices by region\nThe following list of all UNESCO Field Offices is organized geographically by UNESCO Region and identifies the members states and associate members of UNESCO which are served by each office.\n\nAfrica\nAbidjan \u2013 National Office to C\u00f4te d'Ivoire\nAbuja \u2013 National Office to Nigeria\nAccra \u2013 Cluster Office for Benin, C\u00f4te d'Ivoire, Ghana, Liberia, Nigeria, Sierra Leone and Togo\nAddis Ababa \u2013 Liaison Office with the African Union and with the Economic Commission for Africa\nBamako \u2013 Cluster Office for Burkina Faso, Guinea, Mali and Niger\nBrazzaville \u2013 National Office to the Republic of the Congo\nBujumbura \u2013 National Office to Burundi\nDakar \u2013 Regional Bureau for Education in Africa and Cluster Office for Cape Verde, Gambia, Guinea-Bissau, and Senegal\nDar es Salaam \u2013 Cluster Office for Comoros, Madagascar, Mauritius, Seychelles and Tanzania\nHarare \u2013 Cluster Office for Botswana, Malawi, Mozambique, Zambia and Zimbabwe\nJuba \u2013 National Office to South Sudan\nKinshasa \u2013 National Office to the Democratic Republic of the Congo\nLibreville \u2013 Cluster Office for the Republic of the Congo, Democratic Republic of the Congo, Equatorial Guinea, Gabon and S\u00e3o Tom\u00e9 and Pr\u00edncipe\nMaputo \u2013 National Office to Mozambique\nNairobi \u2013 Regional Bureau for Sciences in Africa and Cluster Office for Burundi, Djibouti, Eritrea, Kenya, Rwanda, Somalia, South Sudan and Uganda\nWindhoek \u2013 National Office to Namibia\nYaound\u00e9 \u2013 Cluster Office to Cameroon, Central African Republic and Chad\nArab States\nAmman \u2013 National Office to Jordan\nBeirut \u2013 Regional Bureau for Education in the Arab States and Cluster Office to Lebanon, Syria, Jordan, Iraq and Palestine\nCairo \u2013 Regional Bureau for Sciences in the Arab States and Cluster Office for Egypt and Sudan\nDoha \u2013 Cluster Office to Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, United Arab Emirates and Yemen\nIraq \u2013 National Office for Iraq (currently located in Amman, Jordan)\nKhartoum \u2013 National Office to Sudan\nManama \u2013 Arab Regional Centre for World Heritage\nRabat \u2013 Cluster Office to Algeria, Libya, Mauritania, Morocco and Tunisia\nRamallah \u2013 National Office to the Palestinian Territories\nAsia and Pacific\nSee also: UNESCO Asia Pacific Heritage Awards\nAlmaty \u2013 Cluster Office to Kazakhstan, Kyrgyzstan, Tajikistan and Uzbekistan\nApia \u2013 Cluster Office to Australia, Cook Islands, Fiji, Kiribati, Marshall Islands, Federated States of Micronesia, Nauru, New Zealand, Niue, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga, Tuvalu, Vanuatu and Tokelau (Associate Member)\nBangkok \u2013 Regional Bureau for Education in Asia and the Pacific and Cluster Office to Thailand, Burma, Laos, Singapore and Vietnam\nBeijing \u2013 Cluster Office to North Korea, Japan, Mongolia, the People's Republic of China and South Korea\nDhaka \u2013 National Office to Bangladesh\nHanoi \u2013 National Office to Vietnam\nIslamabad \u2013 National Office to Pakistan\nJakarta \u2013 Regional Bureau for Sciences in Asia and the Pacific and Cluster Office to the Philippines, Brunei, Indonesia, Malaysia, and East Timor\nManila \u2013 National Office to the Philippines\nKabul \u2013 National Office to Afghanistan\nKathmandu \u2013 National Office to Nepal\nNew Delhi \u2013 Cluster Office to Bangladesh, Bhutan, India, Maldives and Sri Lanka\nPhnom Penh \u2013 National Office to Cambodia\nTashkent \u2013 National Office to Uzbekistan\nTehran \u2013 Cluster Office to Afghanistan, Iran, Pakistan and Turkmenistan\nEurope and North America\nBrussels \u2013 Liaison Office to the European Union and its subsidiary bodies in Brussels\nGeneva \u2013 Liaison Office to the United Nations in Geneva\nNew York City \u2013 Liaison Office to the United Nations in New York\nVenice \u2013 Regional Bureau for Sciences and Culture in Europe\nLatin America and the Caribbean\n\nCarondelet Palace, Presidential Palace \u2013 with changing of the guards. The Historic Center of Quito, Ecuador, is one of the largest, least-altered and best-preserved historic centres in the Americas. This centre was, together with the historic centre of Krak\u00f3w in Poland, the first to be declared World Heritage Site by UNESCO on 18 September 1978.\nBras\u00edlia \u2013 National Office to Brazil\nGuatemala City \u2013 National Office to Guatemala\nHavana \u2013 Regional Bureau for Culture in Latin America and the Caribbean and Cluster Office to Cuba, Dominican Republic, Haiti and Aruba\nKingston \u2013 Cluster Office to Antigua and Barbuda, Bahamas, Barbados, Belize, Dominica, Grenada, Guyana, Jamaica, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Suriname and Trinidad and Tobago as well as the associate member states of British Virgin Islands, Cayman Islands, Cura\u00e7ao and Sint Maarten\nLima \u2013 National Office to Peru\nMexico City \u2013 National Office to Mexico\nMontevideo \u2013 Regional Bureau for Sciences in Latin America and the Caribbean and Cluster Office to Argentina, Brazil, Chile, Paraguay and Uruguay\nPort-au-Prince \u2013 National Office to Haiti\nQuito \u2013 Cluster Office to Bolivia, Colombia, Ecuador and Venezuela\nSan Jos\u00e9 \u2013 Cluster Office to Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Nicaragua and Panama\nSantiago de Chile \u2013 Regional Bureau for Education in Latin America and the Caribbean and National Office to Chile",
+        "response": "Almaty; Apia; Bangkok; Beijing; Dhaka; Hanoi; Islamabad; Jakarta; Manila; Kabul; Kathmandu; New Delhi; Phnom Penh; Tashkent; Tehran",
+        "category": "information_extraction",
+        "idx": 122
+    },
+    {
+        "instruction": "What do dogs like to do?",
+        "context": "",
+        "response": "Dogs like to chase balls. They also like to chase small animals like squirrels. Depending on the breed, they may have other interests like sleeping on your lap. Some dogs bite and fight with cats.",
+        "category": "general_qa",
+        "idx": 123
+    },
+    {
+        "instruction": "Classify each of the following as something used for drinking or eating: cup, bottle, plate, bowl, fork, spoon, can",
+        "context": "",
+        "response": "Cup: Drinking\nBottle: Drinking\nPlate: Eating\nBowl: Eating\nFork: Eating\nSpoon: Eating\nCan: Drinking",
+        "category": "classification",
+        "idx": 124
+    },
+    {
+        "instruction": "What ages are considered newborn, toddler, child and teenager?",
+        "context": "",
+        "response": "A newborn is typically from birth to 1 year old. A toddler is 1-5. A child is 5-12. A teenager is 12-18.",
+        "category": "classification",
+        "idx": 125
+    },
+    {
+        "instruction": "What is sweep rowing?",
+        "context": "Rowing, sometimes called crew in the United States, is the sport of racing boats using oars. It differs from paddling sports in that rowing oars are attached to the boat using oarlocks, while paddles are not connected to the boat. Rowing is divided into two disciplines: sculling and sweep rowing. In sculling, each rower holds two oars\u2014one in each hand, while in sweep rowing each rower holds one oar with both hands. There are several boat classes in which athletes may compete, ranging from single sculls, occupied by one person, to shells with eight rowers and a coxswain, called eights. There are a wide variety of course types and formats of racing, but most elite and championship level racing is conducted on calm water courses 2 kilometres (1.2 mi) long with several lanes marked using buoys.",
+        "response": "Sweep rowing is a rowing discipline in which rowers hold one oar with both hands.",
+        "category": "summarization",
+        "idx": 126
+    },
+    {
+        "instruction": "Who was the first woman to have four country albums reach No. 1 on the Billboard 200?",
+        "context": "",
+        "response": "Carrie Underwood.",
+        "category": "open_qa",
+        "idx": 127
+    },
+    {
+        "instruction": "According to this paragraph, what are the \"Old Dorms\" at the University of Virginia?",
+        "context": "The primary housing areas for first-year students are McCormick Road Dormitories, often called \"Old Dorms\", and Alderman Road Dormitories, often called \"New Dorms\". The 1970s-era Alderman Road Dorms are being fully replaced with brand new dormitory buildings in the same area. The replacements feature hall-style living arrangements with common areas and many modern amenities. Instead of being torn down and replaced like the original New Dorms, the Old Dorms will see a $105 million renovation project between 2017 and 2022. They were constructed in 1950, and are also hall-style constructions but with fewer amenities. The Old Dorms are closer to the students' classes.",
+        "response": "The \"Old Dorms\" at the University of Virginia often refer to the primary housing area for first-year students on McCormick Road.",
+        "category": "closed_qa",
+        "idx": 128
+    },
+    {
+        "instruction": "Which of the following are ice cream toppings and which are salad dressings: thousand island, chocolate sauce, hot fudge, balsamic vinaigrette, whipped cream, and Caesar.",
+        "context": "",
+        "response": "The ice cream toppings are chocolate sauce, hot fudge, and whipped cream. The salad dressings are thousand island, balsamic vinaigrette, and Caesar.",
+        "category": "classification",
+        "idx": 129
+    },
+    {
+        "instruction": "With what opera company is the late soprano and master voice teacher Ellen Faull Gordon most associated?",
+        "context": "",
+        "response": "New York City Opera, the company dubbed \"The people opera\" by Fiorello La Guardia.",
+        "category": "brainstorming",
+        "idx": 130
+    },
+    {
+        "instruction": "Given this paragraph about Gheorge Hagi, tell me which were his top achievements in the Romanian football team.",
+        "context": "At international level, Hagi played for the Romania national team in three FIFA World Cups, in 1990, 1994 (where he was named in the World Cup All-Star Team after helping his nation to the quarter-finals of the tournament) and 1998; as well as in three UEFA European Championships, in 1984, 1996 and 2000. He won a total of 124 caps for Romania between 1983 and 2000, making him the second-most capped Romanian player of all time, behind only Dorinel Munteanu; he is also the joint all-time leading goalscorer of the Romania national side (alongside Adrian Mutu) with 35 goals.",
+        "response": "Gheorghe Hagi is arguably the best Romanian football player holding the record for most goals scored with the national team. He participated in 3 World Cups and 3 European Championships and he was awarded a spot in the World Cup All-Start Team in 1994.",
+        "category": "closed_qa",
+        "idx": 131
+    },
+    {
+        "instruction": "Who invented the Jeans",
+        "context": "Jeans are a type of pants or trousers made from denim or dungaree cloth. Often the term \"jeans\" refers to a particular style of trousers, called \"blue jeans\", with copper-riveted pockets which were invented by Jacob W. Davis in 1871 and patented by Jacob W. Davis and Levi Strauss on May 20, 1873. Prior to the patent, the term \"blue jeans\" had been long in use for various garments (including trousers, overalls, and coats), constructed from blue-colored denim.\n\n\"Jean\" also references a (historic) type of sturdy cloth commonly made with a cotton warp and wool weft (also known as \"Virginia cloth\"). Jean cloth can be entirely cotton as well, similar to denim. Originally designed for miners, modern jeans were popularized as casual wear by Marlon Brando and James Dean in their 1950s films, particularly The Wild One and Rebel Without a Cause, leading to the fabric becoming a symbol of rebellion among teenagers, especially members of the greaser subculture. From the 1960s onwards, jeans became common among various youth subcultures and subsequently young members of the general population. Nowadays, they are one of the most popular types of specialty trousers in Western culture. Historic brands include Levi's, Lee, and Wrangler.",
+        "response": "Jeans are a type of pants or trousers made from denim or dungaree cloth. Often the term \"jeans\" refers to a particular style of trousers, called \"blue jeans\", with copper-riveted pockets which were invented by Jacob W. Davis in 1871 and patented by Jacob W. Davis and Levi Strauss on May 20, 1873. Prior to the patent, the term \"blue jeans\" had been long in use for various garments (including trousers, overalls, and coats), constructed from blue-colored denim.\n\n\"Jean\" also references a (historic) type of sturdy cloth commonly made with a cotton warp and wool weft (also known as \"Virginia cloth\"). Jean cloth can be entirely cotton as well, similar to denim. Originally designed for miners, modern jeans were popularized as casual wear by Marlon Brando and James Dean in their 1950s films, particularly The Wild One and Rebel Without a Cause, leading to the fabric becoming a symbol of rebellion among teenagers, especially members of the greaser subculture. From the 1960s onwards, jeans became common among various youth subcultures and subsequently young members of the general population. Nowadays, they are one of the most popular types of specialty trousers in Western culture. Historic brands include Levi's, Lee, and Wrangler.",
+        "category": "summarization",
+        "idx": 132
+    },
+    {
+        "instruction": "From the passage mention the services provided by Jio. Also consider the services to be provided in future. Display the results in comma separated format.",
+        "context": "Reliance Jio Infocomm Limited, doing business as Jio, is an Indian telecommunications company and a subsidiary of Jio Platforms, headquartered in Navi Mumbai, Maharashtra, India. It operates a national LTE network with coverage across all 22 telecom circles. Jio offers 4G and 4G+ services all over India and 5G service in many cities. Its 6G service is in the works.\n\nJio soft launched on 27 December 2015 with a beta for partners and employees, and became publicly available on 5 September 2016. It is the largest mobile network operator in India and the third largest mobile network operator in the world with over 42.62 crore (426.2 million) subscribers.\n\nIn September 2019, Jio launched a fiber to the home service, offering home broadband, television, and telephone services. As of September 2020, Reliance Industries has raised \u20b91.65 lakh crore (US$21 billion) by selling nearly 33% equity stake in Jio Platforms.",
+        "response": "LTE, 4G, 4G+, 5G, 6G",
+        "category": "information_extraction",
+        "idx": 133
+    },
+    {
+        "instruction": "Classify each of these car manufacturers as either French, German, American, Japanese, or other: Lexus, Hyundai, Alfa Romeo, VW, Honda, GM, Citroen",
+        "context": "",
+        "response": "French: Citroen\nGerman: VW\nAmerican: GM\nJapanese: Lexus, Honda\nother: Hyundai, Alfa Romeo",
+        "category": "classification",
+        "idx": 134
+    },
+    {
+        "instruction": "Extract the areas of science using differential equations in this text in an alphabetically ordered list.",
+        "context": "A differential equation is a mathematical equation for an unknown function of one or several variables that relates the values of the function itself and its derivatives of various orders. Differential equations play a prominent role in engineering, physics, economics, biology, and other disciplines.\n\nDifferential equations arise in many areas of science and technology, specifically whenever a deterministic relation involving some continuously varying quantities (modelled by functions) and their rates of change in space or time (expressed as derivatives) is known or postulated. This is illustrated in classical mechanics, where the motion of a body is described by its position and velocity as the time value varies. Newton's laws allow one (given the position, velocity, acceleration and various forces acting on the body) to express these variables dynamically as a differential equation for the unknown position of the body as a function of time. In some cases, this differential equation (called an equation of motion) may be solved explicitly.",
+        "response": "Here is a list of alphabetically sorted applications of differential equations:\n- Biology\n- Economics\n- Engineering\n- Physics",
+        "category": "information_extraction",
+        "idx": 135
+    },
+    {
+        "instruction": "From the passage provided, extract the year where C++ was standardized",
+        "context": "C++ (/\u02c8si\u02d0 pl\u028cs pl\u028cs/, pronounced \"C plus plus\") is a high-level, general-purpose programming language created by Danish computer scientist Bjarne Stroustrup. First released in 1985 as an extension of the C programming language, it has since expanded significantly over time; modern C++ currently has object-oriented, generic, and functional features, in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM.\n\nC++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights. C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications, including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes).\n\nC++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2020 as ISO/IEC 14882:2020 (informally known as C++20). The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization. Since 2012, C++ has been on a three-year release schedule with C++23 as the next planned standard.",
+        "response": "The C++ programming language was initially standardized in 1998",
+        "category": "information_extraction",
+        "idx": 136
+    },
+    {
+        "instruction": "Is weightlifting good for you?",
+        "context": "",
+        "response": "Weightlifting can be a healthy part of any fitness plan due to how it develops muscle mass across your body. This increase in muscle mass can enhance strength, speed, and explosiveness. Weightlifting has also been shown to improve many important biomarkers such as testosterone and cortisol levels.",
+        "category": "general_qa",
+        "idx": 137
+    },
+    {
+        "instruction": "Tell me where the following numbers are odd or even: 13, 200, 334, 420, 5, 12",
+        "context": "",
+        "response": "13: Odd\n200: Even\n334: Even\n420: Even\n5: Odd\n12: Even",
+        "category": "classification",
+        "idx": 138
+    },
+    {
+        "instruction": "Identify which instrument is string or woodwind: Tenoroon, Tembor",
+        "context": "",
+        "response": "Tembor is string, Tenoroon is woodwind.",
+        "category": "classification",
+        "idx": 139
+    },
+    {
+        "instruction": "Which notable person in this list with surname Liebers was born last?",
+        "context": "Liebers is a German language surname. Notable people with the name include:\n\nMario Liebers (born 1960), German former competitive figure skater\nMartin Liebers (born 1985), German former competitive figure skater\nMatthias Liebers (born 1958), former German footballer\nPeter Liebers (born 1988), German former figure skater.",
+        "response": "Peter Liebers",
+        "category": "information_extraction",
+        "idx": 140
+    },
+    {
+        "instruction": "Which member of *NSYNC was a replacement for another who quit before they got big?",
+        "context": "",
+        "response": "Lance Bass.",
+        "category": "open_qa",
+        "idx": 141
+    },
+    {
+        "instruction": "Who is Pearl Jam?",
+        "context": "Pearl Jam is an American rock band formed in Seattle, Washington, in 1990. The band's lineup consists of founding members Jeff Ament (bass guitar), Stone Gossard (rhythm guitar), Mike McCready (lead guitar), and Eddie Vedder (lead vocals, guitar), as well as Matt Cameron (drums), who joined in 1998. Keyboardist Boom Gaspar has also been a touring/session member with the band since 2002.",
+        "response": "Pearl Jam is an American rock band formed in Seattle, Washington, in 1990. The band's lineup consists of founding members Jeff Ament (bass guitar), Stone Gossard (rhythm guitar), Mike McCready (lead guitar), and Eddie Vedder (lead vocals, guitar), as well as Matt Cameron (drums), who joined in 1998. Keyboardist Boom Gaspar has also been a touring/session member with the band since 2002. Drummers Jack Irons, Dave Krusen, Matt Chamberlain, and Dave Abbruzzese are former members of the band. Pearl Jam outsold many of their contemporaries from the early 1990s, and are considered one of the most influential bands of the decade, being dubbed as \"the most popular American rock and roll band of the '90s\".\n\nFormed after the demise of Gossard and Ament's previous band, Mother Love Bone, Pearl Jam broke into the mainstream with their debut album, Ten, in 1991. Ten stayed on the Billboard 200 chart for nearly five years, and has gone on to become one of the highest-selling rock records ever, going 13\u00d7 platinum in the United States. Released in 1993, Pearl Jam's second album, Vs., sold over 950,000 copies in its first week of release, setting the record for most copies of an album sold in its first week of release at the time. Their third album, Vitalogy (1994), became the second-fastest-selling CD in history at the time, with more than 877,000 units sold in its first week.\n\nOne of the key bands in the grunge movement of the early 1990s, Pearl Jam's members often shunned popular music industry practices such as making music videos or participating in interviews. The band also sued Ticketmaster, claiming it had monopolized the concert-ticket market. In 2006, Rolling Stone described the band as having \"spent much of the past decade deliberately tearing apart their own fame.\"\n\nPearl Jam had sold more than 85 million albums worldwide by 2018, including nearly 32 million albums in the United States by 2012, making them one of the best-selling bands of all time. Pearl Jam was inducted into the Rock and Roll Hall of Fame in 2017 in its first year of eligibility. They were ranked eighth in a readers' poll by Rolling Stone magazine in its \"Top Ten Live Acts of All Time\" issue. Throughout its career, the band has also promoted wider social and political issues, from pro-abortion rights sentiments to opposition to George W. Bush's presidency. Vedder acts as the band's spokesman on these issues.",
+        "category": "information_extraction",
+        "idx": 142
+    },
+    {
+        "instruction": "Who wrote the music and lyrics for Replay?",
+        "context": "\"Tomorrow\" is a show tune from the musical Annie, with music by Charles Strouse and lyrics by Martin Charnin, published in 1977. The number was originally written as \"Replay\" (The Way We Live Now) for the 1970 short film Replay, with both music and lyrics by Strouse.\n\nIn 1972 Strouse, and Thomas Meehan began working on a musical based on the Little Orphan Annie comic strips, Annie. Strouse contributed a reworked version of \"Replay\" as \"Tomorrow\". \"Annie\" took until 1976 to reach Broadway and during that time Strouse reworked \"Replay\" again for possible use in what became \"Charlie and Algernon\", a musical version of Daniel Keyes's Flowers for Algernon with book by playwright David Rogers although it was not ultimately used. \"",
+        "response": "Charles Strouse",
+        "category": "closed_qa",
+        "idx": 143
+    },
+    {
+        "instruction": "What is a metaverse?",
+        "context": "",
+        "response": "In science fiction, the \"metaverse\" is a hypothetical iteration of the Internet as a single, universal, and immersive virtual world that is facilitated by the use of virtual reality (VR) and augmented reality (AR) headsets. In colloquial usage, a \"metaverse\" is a network of 3D virtual worlds focused on social and economic connection.\n\nThe term \"metaverse\" originated in the 1992 science fiction novel Snow Crash as a portmanteau of \"meta\" and \"universe\". Metaverse development is often linked to advancing virtual reality technology due to the increasing demands for immersion. Recent interest in metaverse development is influenced by Web3, a concept for a decentralized iteration of the internet. Web3 and metaverse have been used as buzzwords to exaggerate the development progress of various related technologies and projects for public relations purposes. Information privacy, user addiction, and user safety are concerns within the metaverse, stemming from challenges facing the social media and video game industries as a whole.",
+        "category": "open_qa",
+        "idx": 144
+    },
+    {
+        "instruction": "Why do people purchase ski passes?",
+        "context": "",
+        "response": "People buy ski passes so that they have unlimited access to a mountain resort. If they visit the resort enough times in a season, they can save money by using a pass rather than buying individual tickets for each day. Also, using a pass makes it faster to enter the resort without having to stop at a ticket counter.",
+        "category": "open_qa",
+        "idx": 145
+    },
+    {
+        "instruction": "Marburg Virus Disease belongs to the same family as",
+        "context": "",
+        "response": "Ebola",
+        "category": "open_qa",
+        "idx": 146
+    },
+    {
+        "instruction": "Who is the most powerful person in the world?",
+        "context": "",
+        "response": "The answer is subjective as it depends on definition of power at a global scale. If the criteria is based on a person representing a country with significant military power, economic power and geo-political influence, then the two most powerful individuals in the world are Joe Biden (current president of the United States) and Xi Jinping (leader of the Chinese Communist Party) and leader of China",
+        "category": "open_qa",
+        "idx": 147
+    },
+    {
+        "instruction": "Give me the list of all French president during the fifth Republic",
+        "context": "",
+        "response": "Sure, this is the list of all the French presidents elected during the 5th Republic : \n- Charles De Gaule, from 1959 to 1969, Charles de Gaulle resigned after losing a referendum\n- Georges Pompidou, from 1969 to 1974, died of sickness during his presidency,\n- Val\u00e9ry-Giscard d\u2019Estaing, from 1974 to 1981, at this period he was the youngest elected president, \n- Fran\u00e7ois Mitterrand, from 1981 to 1995, he is te first reelected president\n- Jacques Chirac, from 1995 to 2007, was reelected with the support of to the \"popular front\" against the far right, \n- Nicolas Sarkozy, from 2007 to 2012, was known for his conservative stance on law and order issues,\n- Fran\u00e7ois Hollande, from 2012 to 2017, was elected on socialist promises, but lied and had run  an ultra-capitalist politic \n- Emmanuel Macron from 2012 to today, the youngest president in the modern era, the first reelected president since the change for the five-year term, french people call him \"Jupiter\" because he is known for his abuse of power and because he ordered violent repression of demonstrations and strikes.",
+        "category": "brainstorming",
+        "idx": 148
+    },
+    {
+        "instruction": "What are a couple of simple tricks to make a simple wood carving look more polished and professional?",
+        "context": "",
+        "response": "Okay the first obvious point to make here is that the thing that will make any piece of art - including a wood carving - look more professional is the quality of the art!  That means the skill and the artistic quality that goes into it, specifically.  But there are a couple things you can do to dress it up a bit - think about your school days and sliding that english paper into a fresh new folder with a carefully penned title on the front. So back to wood carving.  What can you do?  Let's say you've carved yourself a nice salmon complete with fens and gill lines.  Well here are three ways to dress it up.  First and most obvious  - paint it.  You can go for detail paint or you can use more of a water color approach that will give the wood a colored wash.  The sky is really the limit here.  Second, you mount it on a stand so it floats about the ground.  Drill a small whole in the bottom of the fish, do the same in a wood block you've sanded up and you have s stand.  Third and a bit more out there - consider if there are simple additions you can add.  I made an angler fish and used a drive flower with stem as the attached antenna.  Look around and think about what you can add to your project.  Last and most basic, put a coat of varnish on it to seal it up - and if you choose give it a bit of shine.  All these ideas will give a little bit of extra finish and pop to your project.",
+        "category": "open_qa",
+        "idx": 149
+    },
+    {
+        "instruction": "Give me a list of ways to express your love to someone",
+        "context": "",
+        "response": "1. Write them a card\n2. Text them a beautiful message\n3. Send them some flowers\n4. Organise a date out\n5. Take a walk and tell them how you feel\n6. Spend quality time with them",
+        "category": "brainstorming",
+        "idx": 150
+    },
+    {
+        "instruction": "Which is the oldest dynasty still ruling?",
+        "context": "",
+        "response": "Japan",
+        "category": "open_qa",
+        "idx": 151
+    },
+    {
+        "instruction": "What is Microsoft Teams?",
+        "context": "",
+        "response": "Microsoft Teams is communication platform that has functionality for email, video conferencing, peer chatting, file sharing, conversation and file search, and integration with Sharepoint and Onenote to name a few.  Their closest competitor is Slack owned by SalesForce.  All of these platforms mentioned above operate in real-time as well.",
+        "category": "open_qa",
+        "idx": 152
+    },
+    {
+        "instruction": "Given this paragraph about Mark Arminski, why was he famous and what did he study last while still at school?",
+        "context": "Mark Arminski is an American rock concert poster artist born in 1950 in Detroit, Michigan. He began studying art at the Oakland Community College and pursued printmaking in stone lithography at the Kalamazoo Institute of Arts. Rounding out his formal education was his stay at the Dynamic Graphics Education Foundation in Peoria, Illinois, where he studied computer generated art.",
+        "response": "Mark Arminski is an American rock concert poster artist.  He finished his formal education studying computer generated art.",
+        "category": "closed_qa",
+        "idx": 153
+    },
+    {
+        "instruction": "List of the biggest oceans in the world",
+        "context": "",
+        "response": "Pacific Ocean\nAtlantic Ocean\nIndian Ocean\nSouthern Ocean\nArctic Ocean\nCoral Sea\nArabian Sea",
+        "category": "brainstorming",
+        "idx": 154
+    },
+    {
+        "instruction": "What are the examples of eponyms provided in the passage. List them in the bulleted format.",
+        "context": "\"Eponymous\" redirects here. For the album, see\u00a0Eponymous (album).\u00a0\"Self-titled\" redirects here. For other uses, see\u00a0Self-titled (disambiguation).\u00a0Not to be confused with\u00a0Namesake.\nAn\u00a0eponym\u00a0is a person, a place, or a thing after whom or which someone or something is, or is believed to be, named. The adjectives which are derived from the word eponym include\u00a0eponymous\u00a0and\u00a0eponymic.Usage of the wordThe term\u00a0eponym\u00a0functions in multiple related ways, all based on an explicit relationship between two named things. A person, place, or thing named after a particular person share an eponymous relationship. In this way,\u00a0Elizabeth I of England\u00a0is the eponym of the\u00a0Elizabethan era, but the\u00a0Elizabethan era\u00a0can also be referred to as the eponym of\u00a0Elizabeth I of England.When\u00a0Henry Ford\u00a0is referred to as \"the\u00a0eponymous\u00a0founder of the\u00a0Ford Motor Company\", his surname \"Ford\" and the name of the motor company have an eponymous relationship. The word \"eponym\" can also refer to the\u00a0title character\u00a0of a fictional work (such as\u00a0Rocky Balboa\u00a0of the\u00a0Rocky\u00a0film series), as well as to\u00a0self-titled\u00a0works named after their creators (such as the album\u00a0The Doors\u00a0by the band\u00a0the Doors).Walt Disney\u00a0created the eponymous\u00a0Walt Disney Company, with his name similarly extended to theme parks such as\u00a0Walt Disney World.\u00a0Medical eponymous terms are often called\u00a0medical eponyms\u00a0although that usage is\u00a0deprecable.",
+        "response": "Elizabeth I of England and Elizabethan era\nHenry Ford and Ford Motor Company\nRocky Balboa and Rocky film series\nalbum The Doors and band the Doors\nWalt Disney and Walt Disney Company and Walt Disney World",
+        "category": "information_extraction",
+        "idx": 155
+    },
+    {
+        "instruction": "How to prevent the extinction of the human species?",
+        "context": "",
+        "response": "Humans are vulnerable to many different cataclysmic events. \nOne way is to migrate and reside in other planets, solar systems and even galaxies. Earth is a single point of failure. \nAnother consideration is to merge with AI and exist in virtual reality as a non-biological species. \nPreserving human genetic material in doomsday vaults, so that humans can be revived/resurrected in the future.",
+        "category": "creative_writing",
+        "idx": 156
+    },
+    {
+        "instruction": "What is Azure SQL used for?",
+        "context": "",
+        "response": "Azure SQL is a cloud based Azure SQL Server Database that is used for data warehousing.  It contains data tables, sql queries, stored procedures, grants and permissions.  System of Record (SoR) can be accessed and flow to the Azure SQL Server Database using a data pipeline or the Azure SQL API.  Once the data lands in Azure SQL you will need to consider a strategy for how to handle change data capture (CDC).  The data can be served to the business from Azure SQL Database for dashboarding and business reporting.",
+        "category": "open_qa",
+        "idx": 157
+    },
+    {
+        "instruction": "What is the loudest animal on Earth?",
+        "context": "",
+        "response": "The sperm whale.",
+        "category": "open_qa",
+        "idx": 158
+    },
+    {
+        "instruction": "Can you explain how I can analyze Simba logs?",
+        "context": "",
+        "response": "A typical Simba driver log line to would like like below\nFeb 21 20:17:16.525 TRACE 1542911745 Simba::ODBC::Statement::SQLFetch: +++++ enter +++++\n\nOne can use regular expression based match to parse this log line to split the fields to derive meaningful insights.\n\nFor example, the fields can be split into\n- timestamp\n- loglevel\n- pid\n- message\n\nThe last message field is a long string which encapsulates a lot of important information but can be classified as below by splitting this further based on the :: delimiter.\n- Namespace\n- Class\n- Method\n- Details\n\n\nThere are 2 types of Simba logs\nConnection Logs - Useful for getting connection attributes like agent, driver versions, operation status calls, connection failures, SSL errors etc\nDriver Logs - This helps to analyze actual details around data fetch performance.\n\nSome examples to derive meaningful insights from connection logs\nExtract unique query identifier using keyword search within the message for \"THandleIdentifier\" or a guid pattern\n\nSome examples to derive meaningful insights from driver logs\nHow long did an actual data fetch block take can be inspected using the time difference between the blocks.\nSQLFetch*Enter\nSQLFetch*Exit\n\nWithin each fetch block, you can look for below log lines to understand if it was a row-by-row fetch if you see a log of SQLGetData blocks.\nSQLGetData*Enter\nSQLGetData*Exit\n\nThere is other miscellaneous information logged by Simba driver for preceding requests such as closing a query or a session where an actual identifier needs to be sent along with the request, think of it as a payload for a REST API post request where you also need to send a payload along with the request.\n\nOverall, deriving meaningful information from the Simba driver logs require a bit of analysis\nbefore actually realizing the benefits of such analysis, most of the details are cryptic.\n\nBrainstorming other ideas with Simba product team would be fantastic.",
+        "category": "brainstorming",
+        "idx": 159
+    },
+    {
+        "instruction": "Can you give me a short bulleted list of the Murray-Wright's violent activities of the 1980s?",
+        "context": "In 1987, James Risen of the Los Angeles Times said \"Murray\u2013Wright had become one of the most violent schools in the city.\"\n\nOn October 18, 1985, during homecoming celebrations, four teenagers entered the American football game area in an automobile, two minutes before halftime during the Public School League game between Murray\u2013Wright and Northwestern High School. When the car pulled behind the grandstands, one teenager fired on a crowd of 300 people with a shotgun, causing seven people to receive injuries. Six of the injured were teenagers, ranged in age from 13 to 19. One received critical injuries. All six received treatment at the Detroit Receiving Hospital. The shootings occurred at 4:15 PM, and the suspects left the scene. This shooting was the week's second shooting that had high school students involved. The shooting was the second one in a month in which Homecoming activities were involved. Police said that one of the suspects had been involved in a fight on an earlier occasion.\n\nOn April 16, 1987, a student at Murray\u2013Wright entered the school parking lot and shot 17-year-old Chester Jackson, a junior running back, in the head, killing him. The attacker went into the gymnasium and shot 18-year-old Damon Matthews, a basketball player, in the face. Tomeka Turner, an 18-year-old, was wounded. Risen said that Turner's injuries occurred \"apparently in the school's corridors as the attacker fled the building.\" The youth with facial injuries received treatment at the Detroit Receiving Hospital. The incident occurred around noon. The attacker, Michael Schofield, was 14 at the time of the crime. Schofield, 15 years old at sentencing, was sentenced to serve in a juvenile correctional facility until he turned 19. Schofield killed four people in 2003 during an attempted robbery of a convenience store in Westland, Michigan, and then killed himself. The Los Angeles Times News Service said that the 1987 Murray\u2013Wright shooting was the incident that put \"most clearly into focus\" the epidemic of youth violence in Detroit.\n\nAfter the murder and shootings, school officials started a plan to reduce violence in the school. The school was closed for two days as officials held special assemblies concerning school violence. The school officials said that of the students who appeared at the assemblies at Murray\u2013Wright, half appeared with their parents. This occurred despite fears that few parents would appear.",
+        "response": "I'd be happy to give you a list of Murray\u2013Wright High School's violent acts of the 1980s:\n - On October 18, 1985 four teenagers shot upon a crowd attending a homecoming football game injuring seven.\n - On April 16, 1987, a 14 year old Murray-Wright student named Michael Schofield shot and killed 17-year old Chester Jackson. He proceeded to shoot an 18 year-old in the face and wound another before fleeing the scene.\nLet me know if you'd like any other information about Murray-Wright High School.",
+        "category": "summarization",
+        "idx": 160
+    },
+    {
+        "instruction": "What is a good Science fiction book?",
+        "context": "",
+        "response": "Foundation by Asimov, Isaac",
+        "category": "open_qa",
+        "idx": 161
+    },
+    {
+        "instruction": "What are the primary colors?",
+        "context": "",
+        "response": "Primary colors are red, yellow, and blue. Together, these are used in combination to create the rest of the color pallet. Red + yellow = orange. Yellow + blue = green. Red + blue = purple.",
+        "category": "classification",
+        "idx": 162
+    },
+    {
+        "instruction": "Air Lingus is the national airline of which country",
+        "context": "",
+        "response": "Republic of Ireland or Eire",
+        "category": "open_qa",
+        "idx": 163
+    },
+    {
+        "instruction": "How is binary search vs other searching schemes?",
+        "context": "Sorted arrays with binary search are a very inefficient solution when insertion and deletion operations are interleaved with retrieval, taking \n\nO(n) time for each such operation. In addition, sorted arrays can complicate memory use especially when elements are often inserted into the array. There are other data structures that support much more efficient insertion and deletion. Binary search can be used to perform exact matching and set membership (determining whether a target value is in a collection of values). There are data structures that support faster exact matching and set membership. However, unlike many other searching schemes, binary search can be used for efficient approximate matching, usually performing such matches in \nO(log n) time regardless of the type or structure of the values themselves. In addition, there are some operations, like finding the smallest and largest element, that can be performed efficiently on a sorted array.\n\nLinear search:\n\nLinear search is a simple search algorithm that checks every record until it finds the target value. Linear search can be done on a linked list, which allows for faster insertion and deletion than an array. Binary search is faster than linear search for sorted arrays except if the array is short, although the array needs to be sorted beforehand. All sorting algorithms based on comparing elements, such as quicksort and merge sort, require at least \nO(nlog n) comparisons in the worst case. Unlike linear search, binary search can be used for efficient approximate matching. There are operations such as finding the smallest and largest element that can be done efficiently on a sorted array but not on an unsorted array.\n\nTrees:\n\nBinary search trees are searched using an algorithm similar to binary search.\nA binary search tree is a binary tree data structure that works based on the principle of binary search. The records of the tree are arranged in sorted order, and each record in the tree can be searched using an algorithm similar to binary search, taking on average logarithmic time. Insertion and deletion also require on average logarithmic time in binary search trees. This can be faster than the linear time insertion and deletion of sorted arrays, and binary trees retain the ability to perform all the operations possible on a sorted array, including range and approximate queries.\n\nHowever, binary search is usually more efficient for searching as binary search trees will most likely be imperfectly balanced, resulting in slightly worse performance than binary search. This even applies to balanced binary search trees, binary search trees that balance their own nodes, because they rarely produce the tree with the fewest possible levels. Except for balanced binary search trees, the tree may be severely imbalanced with few internal nodes with two children, resulting in the average and worst-case search time approaching \nn comparisons. Binary search trees take more space than sorted arrays.\n\nBinary search trees lend themselves to fast searching in external memory stored in hard disks, as binary search trees can be efficiently structured in filesystems. The B-tree generalizes this method of tree organization. B-trees are frequently used to organize long-term storage such as databases and filesystems.\n\nHashing:\nFor implementing associative arrays, hash tables, a data structure that maps keys to records using a hash function, are generally faster than binary search on a sorted array of records.Most hash table implementations require only amortized constant time on average.However, hashing is not useful for approximate matches, such as computing the next-smallest, next-largest, and nearest key, as the only information given on a failed search is that the target is not present in any record. Binary search is ideal for such matches, performing them in logarithmic time. Binary search also supports approximate matches. Some operations, like finding the smallest and largest element, can be done efficiently on sorted arrays but not on hash tables.\n\nSet membership algorithms:\nA related problem to search is set membership. Any algorithm that does lookup, like binary search, can also be used for set membership. There are other algorithms that are more specifically suited for set membership. A bit array is the simplest, useful when the range of keys is limited. It compactly stores a collection of bits, with each bit representing a single key within the range of keys. Bit arrays are very fast, requiring only \nO(1) time.The Judy1 type of Judy array handles 64-bit keys efficiently.\n\nFor approximate results, Bloom filters, another probabilistic data structure based on hashing, store a set of keys by encoding the keys using a bit array and multiple hash functions. Bloom filters are much more space-efficient than bit arrays in most cases and not much slower: with \nk hash functions, membership queries require only \n O(k) time. However, Bloom filters suffer from false positives.\n\nOther data structures:\nThere exist data structures that may improve on binary search in some cases for both searching and other operations available for sorted arrays. For example, searches, approximate matches, and the operations available to sorted arrays can be performed more efficiently than binary search on specialized data structures such as van Emde Boas trees, fusion trees, tries, and bit arrays. These specialized data structures are usually only faster because they take advantage of the properties of keys with a certain attribute (usually keys that are small integers), and thus will be time or space consuming for keys that lack that attribute. As long as the keys can be ordered, these operations can always be done at least efficiently on a sorted array regardless of the keys. Some structures, such as Judy arrays, use a combination of approaches to mitigate this while retaining efficiency and the ability to perform approximate matching.",
+        "response": "Sorted arrays with the binary search are a very inefficient solution when insertion and deletion operations are interleaved with retrieval. In addition, sorted arrays can complicate memory use especially when elements are often inserted into the array.\nBinary search is faster than linear search for sorted arrays except if the array is short, although the array needs to be sorted beforehand.\nBinary search is usually more efficient for searching as binary search trees will most likely be imperfectly balanced, resulting in slightly worse performance than binary search.\na data structure that maps keys to records using a hash function, is generally faster than binary search on a sorted array of records.",
+        "category": "summarization",
+        "idx": 164
+    },
+    {
+        "instruction": "What is a small-world network?",
+        "context": "A small-world network is a mathematical graph in which most nodes are not neighbors of one another, but the neighbors of any given node are likely to be neighbors of each other. Due to this, most neighboring nodes can be reached from every other node by a small number of hops or steps. Specifically, a small-world network is defined to be a network where the typical distance L between two randomly chosen nodes (the number of steps required) grows proportionally to the logarithm of the number of nodes N in the network.",
+        "response": "A small-world network is a mathematical graph in which most nodes are not neighbors of one another, but the neighbors of any given node are likely to be neighbors of each other.",
+        "category": "closed_qa",
+        "idx": 165
+    },
+    {
+        "instruction": "What\u2019s a good way to lose weight",
+        "context": "",
+        "response": "Consuming less calories than you eat can result in weight loss. Using calorie counting apps like MyFitnessPal can assist in calorie counting while ensuring you are getting the proper macro nutrients as well, for optimal healthy weight loss.",
+        "category": "creative_writing",
+        "idx": 166
+    },
+    {
+        "instruction": "Tell me about plant life cycle",
+        "context": "",
+        "response": "Like any living being, a plant is programmed for its specie to last over generations.\nWith winter coming, the plant will generate seeds, what is called \u00ab\u00a0fructification\u00a0\u00bb. \nThese seeds are basically a strong capsule containing the plant\u2019s genetic material and enough energy for the germ to grow the first leaf which will start photosynthesis.\nThe energy contained in the seed is stabilised under the form of starch. It is basically a long chain of sugar polymerised.\nDuring winter, the seed hibernate, but when spring comes, specific weather conditions (humidity, temperature) degrade the starch and release elementary sugar molecules for the new growing plant to create its first leaf.\nChlorophyll contained in leaves will enable the plant to produce its own energy; glucose sugar, from carbon dioxyde, water and light, and continue to grow, until the next cycle.\nThere is a bit of magic with plants: creating oxygen and energy from air and sun!",
+        "category": "general_qa",
+        "idx": 167
+    },
+    {
+        "instruction": "Summarize what the network Bravo is about",
+        "context": "Bravo is an American basic cable television network, launched on December 8, 1980. It is owned by the NBCUniversal Television and Streaming division of Comcast's NBCUniversal. The channel originally focused on programming related to fine arts and film. It currently mainly focuses on lifestyle reality television series targeted at 25-to-54-year-old women as well as the LGBTQIA+ community.\n\nAs of January 2016, approximately 89,824,000 American households (77% of households with TV) receive Bravo.",
+        "response": "Bravo is a television network that show reality TV shows which are targeted at 25-54 year old women as well as the LGBTQIA+ community. Approximately 77% of households with a TV have access to Bravo.",
+        "category": "summarization",
+        "idx": 168
+    },
+    {
+        "instruction": "What were the 2 horses represented in greek mythology?",
+        "context": "",
+        "response": "The 2 horses represented in greek mythology were:\n\n- Pegasus, a divine winged stallion that is pure white, son of Medusa and Poseidon, brother of Chrysaor, and father of winged horses.\n- Ethiopian Pegasus, winged, horned horses native to Ethiopia.",
+        "category": "brainstorming",
+        "idx": 169
+    },
+    {
+        "instruction": "How long is the Mars 2020 mission?",
+        "context": "",
+        "response": "At least one Mars year (about 687 Earth days).",
+        "category": "general_qa",
+        "idx": 170
+    },
+    {
+        "instruction": "What is the population of North Carolina?",
+        "context": "North Carolina is a state in the Southern United States. The state is the 28th largest and 9th-most populous of the United States. It is bordered by Virginia to the north, the Atlantic Ocean to the east, Georgia and South Carolina to the south, and Tennessee to the west. In the 2020 census, the state had a population of 10,439,388. Raleigh is the state's capital and Charlotte is its largest city.",
+        "response": "In the 2020 census, the state of North Carolina had a population of 10,439,388. The state is the 28th largest and 9th-most populous of the United States.",
+        "category": "closed_qa",
+        "idx": 171
+    },
+    {
+        "instruction": "What is a mitochondrial matrix?",
+        "context": "",
+        "response": "In the mitochondrion, the matrix is the space within the inner membrane. The word \"matrix\" stems from the fact that this space is viscous, compared to the relatively aqueous cytoplasm. The mitochondrial matrix contains the mitochondrial DNA, ribosomes, soluble enzymes, small organic molecules, nucleotide cofactors, and inorganic ions. The enzymes in the matrix facilitate reactions responsible for the production of ATP, such as the citric acid cycle, oxidative phosphorylation, oxidation of pyruvate, and the beta oxidation of fatty acids.\n\nThe composition of the matrix based on its structures and contents produce an environment that allows the anabolic and catabolic pathways to proceed favorably for. The electron transport chain and enzymes in the matrix play a large role in the citric acid cycle and oxidative phosphorylation. The citric acid cycle produces NADH and FADH2 through oxidation that will be reduced in oxidative phosphorylation to produce ATP.\n\nThe cytosolic, intermembrane space, compartment has a water content of 3.8 \u03bcL/mg protein, while the mitochondrial matrix 0.8 \u03bcL/mg protein. It is not known how mitochondria maintain osmotic balance across the inner mitochondrial membrane, although the membrane contains aquaporins that are believed to be conduits for regulated water transport. Mitochondrial matrix has a pH of about 7.8, which is higher than the pH of the intermembrane space of the mitochondria, which is around 7.0\u20137.4. Mitochondrial DNA was discovered by Nash and Margit in 1963. One to many double stranded mainly circular DNA is present in mitochondrial matrix. Mitochondrial DNA is 1% of total DNA of a cell. It is rich in guanine and cytosine content. Mitochondria of mammals have 55s ribosomes.",
+        "category": "open_qa",
+        "idx": 172
+    },
+    {
+        "instruction": "Extract from the following passage, the periods of time does sunrise refer to.",
+        "context": "Although the Sun appears to \"rise\" from the horizon, it is actually the Earth's motion that causes the Sun to appear. The illusion of a moving Sun results from Earth observers being in a rotating reference frame; this apparent motion caused many cultures to have mythologies and religions built around the geocentric model, which prevailed until astronomer Nicolaus Copernicus formulated his heliocentric model in the 16th century.\nAstronomically, sunrise occurs for only an instant: the moment at which the upper limb of the Sun appears tangent to the horizon. However, the term sunrise commonly refers to periods of time both before and after this point:\nTwilight, the period in the morning during which the sky is brightening, but the Sun is not yet visible. The beginning of morning twilight is called astronomical dawn.\nThe period after the Sun rises during which striking colors and atmospheric effects are still seen.\nThe timing of sunrise varies throughout the year and is also affected by the viewer's latitude and longitude, altitude, and time zone. These changes are driven by the axial tilt of Earth, daily rotation of the Earth, the planet's movement in its annual elliptical orbit around the Sun, and the Earth and Moon's paired revolutions around each other. The analemma can be used to make approximate predictions of the time of sunrise.\nIn late winter and spring, sunrise as seen from temperate latitudes occurs earlier each day, reaching its earliest time near the summer solstice; although the exact date varies by latitude. After this point, the time of sunrise gets later each day, reaching its latest sometime around the winter solstice. The offset between the dates of the solstice and the earliest or latest sunrise time is caused by the eccentricity of Earth's orbit and the tilt of its axis, and is described by the analemma, which can be used to predict the dates.\nVariations in atmospheric refraction can alter the time of sunrise by changing its apparent position. Near the poles, the time-of-day variation is exaggerated, since the Sun crosses the horizon at a very shallow angle and thus rises more slowly.\nAccounting for atmospheric refraction and measuring from the leading edge slightly increases the average duration of day relative to night. The sunrise equation, however, which is used to derive the time of sunrise and sunset, uses the Sun's physical center for calculation, neglecting atmospheric refraction and the non-zero angle subtended by the solar disc.",
+        "response": "Astronomically, sunrise occurs for only an instant: the moment at which the upper limb of the Sun appears tangent to the horizon. However, the term sunrise commonly refers to periods of time both before and after this point. Twilight, the period in the morning during which the sky is brightening, but the Sun is not yet visible. The beginning of morning twilight is called astronomical dawn. The period after the Sun rises during which striking colors and atmospheric effects are still seen.",
+        "category": "information_extraction",
+        "idx": 173
+    },
+    {
+        "instruction": "When is the world diabetes day celebrated?",
+        "context": "",
+        "response": "World diabetes day is celebrated on November 14",
+        "category": "open_qa",
+        "idx": 174
+    },
+    {
+        "instruction": "Is it a good situation to be a dev ?",
+        "context": "",
+        "response": "You know, for myself I don't think that there is a good or a bad situation. If I had to sum up my life, To be honest, this is much more about meeting people. People who reached out to me, maybe at a time when I couldn't, when I was home alone. And it's quite curious to say to yourself that chance, encounters, forge a destiny... Because when you have a taste for something, when you have a taste for something well done, a nice gesture, sometimes you can't find the interlocutor opposite, I would say, the mirror that helps you move forward. So that's not my case, as I was saying there, since I, on the contrary, I was able to: and I say thank you to life, I say thank you to it, I sing life, I dance life... I am only love! And finally, when many people today say to me \u201cBut how do you manage to have this humanity? \u00bb, Well, I answer them very simply, I tell them that it is this taste for love, this taste that pushed me today to undertake a mechanical construction, but tomorrow who knows? Perhaps simply to put myself at the service of the community, to give, the gift of self...",
+        "category": "open_qa",
+        "idx": 175
+    },
+    {
+        "instruction": "What caused the unprecedented five-game winning streak?",
+        "context": "Richmond enjoys an unprecedented five-game winning streak with Zava on the team, culminating in a win away at Old Trafford against Manchester United. Sam takes the team to celebrate at his yet-to-open Nigerian restaurant, Ola's. Ted is disturbed to learn that his ex-wife Michelle is dating their former couple's therapist, Dr. Jacob; both Sharon and Sassy validate his concern that it is an ethical violation. Jamie feels overshadowed by Zava's stardom; Roy offers to train him. Rebecca visits her mother's psychic Tish, who tells her she will one day be a mother; Rebecca angrily rebuffs Tish as a fraud, but is later stunned when Sam hands her one of the green matchbooks he is giving out to the team, in line with one of Tish's premonitions. Colin introduces his boyfriend Michael to the team as just a friend, but Trent spots them kissing in private while leaving the restaurant.",
+        "response": "While we don't know exactly what caused the winning streak, it seems clear that a key part of the winning streak was related to Zava being on the team. We know that Jamie is overshadowed by Zava's stardom which tells us that Zava is a star, and we see that Zava was mentioned in relation to the winning streak. Therefore, we can guess that Zava joining the team helped the team to go on a five-game winning streak.",
+        "category": "closed_qa",
+        "idx": 176
+    },
+    {
+        "instruction": "Identify which animal species is alive or extinct: Xenoposeidon, Sloth",
+        "context": "",
+        "response": "Sloth is alive, Xenoposeidon is extinct.",
+        "category": "classification",
+        "idx": 177
+    },
+    {
+        "instruction": "Where is Urumqi?",
+        "context": "",
+        "response": "It's in the in the far northwest of China.",
+        "category": "open_qa",
+        "idx": 178
+    },
+    {
+        "instruction": "Name some female characters from \"The X-Files.\"",
+        "context": "",
+        "response": "Dana Scully, Marita Covarrubias, Melissa Scully, Margaret Scully, Leyla Harrison, Teena Mulder, Samantha Mulder, Diana Fowley, Monica Reyes, Cassandra Spender",
+        "category": "open_qa",
+        "idx": 179
+    },
+    {
+        "instruction": "When do schools close and reopen from summer holidays in India?",
+        "context": "Schools and universities typically have a summer break to take advantage of the warmer weather and longer days. In almost all countries, children are out of school during this time of year for summer break, although dates vary. Many families will take holidays for a week or two over summer, particularly in Southern Hemisphere Western countries with statutory Christmas and New Year holidays.\nIn the United States, public schools usually end in late May in Memorial Day weekend, while colleges finish in early May. Public school traditionally resumes near Labor Day, while higher institutions often resume in mid-August.\nIn England and Wales, school ends in mid-July and resumes again in early September. In Scotland, the summer holiday begins in late June and ends in mid-to late-August. Similarly, in Canada the summer holiday starts on the last or second-last Friday in June and ends in late August or on the first Tuesday of September, with the exception of when that date falls before Labour Day, in which case, ends on the second Tuesday of the month. In Russia the summer holiday begins at the end of May and ends on 31 August.\nIn the Southern Hemisphere, school summer holiday dates include the major holidays of Christmas and New Year's Day. School summer holidays in Australia, New Zealand and South Africa begin in early December and end in early February, with dates varying between states. In South Africa, the new school year usually starts during the second week of January, thus aligning the academic year with the Calendar year. In India, school ends in late April and resumes in early or mid-June. In Cameroon and Nigeria, schools usually finish for summer vacation in mid-July and resume in the later weeks of September or the first week of October.",
+        "response": "In India, school ends in late April and resumes in early or mid-June.",
+        "category": "information_extraction",
+        "idx": 180
+    },
+    {
+        "instruction": "Who are the Weasleys?",
+        "context": "",
+        "response": "The Weasley family is a family in the Harry Potter franchise known to be the friends of Harry Potter. You can recognize them by their red hair. The Weasleys are with 9, Molly, Arthur, Charlie, Bill, Fred, George, Percy, Ron & Ginny. They live in the Burrows which is also a safehouse later in the story.",
+        "category": "open_qa",
+        "idx": 181
+    },
+    {
+        "instruction": "From the passage identify the various products and services which are provided by HDFC Bank including the digital products. Display the results in comma separated format.",
+        "context": "HDFC Bank Limited (also known as HDB) is an Indian banking and financial services company headquartered in Mumbai. It is India's largest private sector bank by assets and world's 10th largest bank by market capitalisation as of April 2021. It is the third largest company by market capitalisation of $127.16 billion on the Indian stock exchanges. It is also the fifteenth largest employer in India with nearly 150,000 employees.\nHDFC Bank was incorporated in 1994 as a subsidiary of the Housing Development Finance Corporation, with its registered office in Mumbai, Maharashtra, India. Its first corporate office and a full-service branch at Sandoz House, Worli were inaugurated by the then Union Finance Minister, Manmohan Singh.\nAs of 30 June 2022, the bank's distribution network was at 6,378 branches across 3,203 cities. It has installed 430,000 POS terminals and issued 23,570,000 debit cards and 12 million credit cards in FY 2017. It has a base of 1,52,511 permanent employees as of 30 June 2022.\nHDFC Bank provides a number of products and services including wholesale banking, retail banking, treasury, auto loans, two-wheeler loans, personal loans, loans against property, consumer durable loan, lifestyle loan and credit cards. Along with this various digital products are Payzapp and SmartBUY.",
+        "response": "wholesale banking, retail banking, treasury, auto loans, two-wheeler loans, personal loans, loans against property, consumer durable loan, lifestyle loan , credit cards, Payzapp, SmartBUY",
+        "category": "information_extraction",
+        "idx": 182
+    },
+    {
+        "instruction": "Can you give a list of novels written by Nancy Kress?",
+        "context": "",
+        "response": "The Prince of Morning Bells, (Timescape / Pocket Oct. 1981) / revised: (FoxAcre Press May 2000)\nThe Golden Grove, (Bluejay Books March 1984)\nThe White Pipes, (Bluejay Books Jan. 1985)\nAn Alien Light, (Arbor House / William Morrow Jan. 1988) / (Legend Nov. 1988)\nBrain Rose, (William Morrow Jan. 1990)\nMaximum Light, (Tor Jan. 1997)\nYanked!, (Avon June 1999) from David Brin's Out of Time series\nNothing Human, (Golden Gryphon Press Sep. 2003)\nDogs, (Tachyon Publications July 2008)\nSteal Across the Sky, (Tor Feb. 2009)\nAfter the Fall, Before the Fall, During the Fall (Tachyon Publications April 2012)\nFlash Point, (Viking Nov. 2012)\nSea Change, (Tachyon Publications May 2020)\nThe Eleventh Gate, (Baen Books May 5, 2020)",
+        "category": "open_qa",
+        "idx": 183
+    },
+    {
+        "instruction": "Who is JFK?",
+        "context": "John Fitzgerald Kennedy (May 29, 1917 \u2013 November 22, 1963), often referred to by his initials JFK, was an American politician who served as the 35th president of the United States from 1961 until his assassination in 1963. He was the youngest person to assume the presidency by election and the youngest president at the end of his tenure. Kennedy served at the height of the Cold War, and the majority of his foreign policy concerned relations with the Soviet Union and Cuba. A Democrat, Kennedy represented Massachusetts in both houses of the U.S. Congress prior to his presidency.",
+        "response": "John Fitzgerald Kennedy (May 29, 1917 \u2013 November 22, 1963), often referred to by his initials JFK, was an American politician who served as the 35th president of the United States from 1961 until his assassination in 1963. He was the youngest person to assume the presidency by election and the youngest president at the end of his tenure. Kennedy served at the height of the Cold War, and the majority of his foreign policy concerned relations with the Soviet Union and Cuba. A Democrat, Kennedy represented Massachusetts in both houses of the U.S. Congress prior to his presidency.\n\nBorn into the prominent Kennedy family in Brookline, Massachusetts, Kennedy graduated from Harvard University in 1940 before joining the U.S. Naval Reserve the following year. During World War II, he commanded a series of PT boats in the Pacific theater. Kennedy's survival following the sinking of PT-109 and his rescue of his fellow sailors made him a war hero and earned the Navy and Marine Corps Medal, but left him with serious injuries. After a brief stint in journalism, Kennedy represented a working-class Boston district in the U.S. House of Representatives from 1947 to 1953. He was subsequently elected to the U.S. Senate and served as the junior senator for Massachusetts from 1953 to 1960. While in the Senate, Kennedy published his book, Profiles in Courage, which won a Pulitzer Prize. Kennedy ran in the 1960 presidential election. His campaign gained momentum after the first televised presidential debates in American history, and he was elected president, narrowly defeating Republican opponent Richard Nixon, who was the incumbent vice president. He was the first Catholic elected president.\n\nKennedy's administration included high tensions with communist states in the Cold War. He increased the number of American military advisors in South Vietnam. He authorized numerous operations to overthrow the Cuban government of Fidel Castro, including the failed Bay of Pigs Invasion in April 1961. The following October, U.S. spy planes discovered Soviet missile bases in Cuba; the resulting period of tensions, termed the Cuban Missile Crisis, nearly resulted in the breakout of a global thermonuclear conflict. He also signed the first nuclear weapons treaty in October 1963. Kennedy presided over the establishment of the Peace Corps, Alliance for Progress with Latin America, and the continuation of the Apollo program with the goal of landing a man on the Moon. He also supported the civil rights movement but was only somewhat successful in passing his New Frontier domestic policies.\n\nOn November 22, 1963, Kennedy was assassinated in Dallas. His vice president, Lyndon B. Johnson, assumed the presidency upon Kennedy's death. Lee Harvey Oswald, a former U.S. Marine, was arrested for the assassination, but he was shot and killed by Jack Ruby two days later. The FBI and the Warren Commission both concluded Oswald had acted alone, but conspiracy theories about the assassination still persist. After Kennedy's death, Congress enacted many of his proposals, including the Civil Rights Act of 1964 and the Revenue Act of 1964. Kennedy ranks highly in polls of U.S. presidents with historians and the general public. His personal life has also been the focus of considerable sustained interest following public revelations in the 1970s of his chronic health ailments and extramarital affairs. Kennedy is the most recent U.S. president to have died in office.",
+        "category": "information_extraction",
+        "idx": 184
+    },
+    {
+        "instruction": "Without quoting directly from the text give me a summary of how turist visit the falls even if they are used for hydroelectric power production.",
+        "context": "The Cascata delle Marmore (Italian: [ka\u02c8ska\u02d0ta delle \u02c8marmore]) or Marmore Falls is a man-made waterfall created by the ancient Romans. Its total height is 165 m (541 feet), making it the tallest man-made waterfall in the world.\n\nIt is located 7.7 km from Terni, a provincial capital of the Italian region of Umbria. \n\nIts source is a portion of the waters of the river Velino. After flowing through Piediluco lake near the community of Marmore (italian), it pours into the valley below formed by the river Nera. The flow of the waterfall depends on an off and on scale with a published schedule to support the power company nearby.\n\nMost of the time, the water in the canals above the Cascata delle Marmore falls is diverted to a hydroelectric power plant, so the flow in the falls themselves is heavily reduced. Piediluco Lake, above the falls, is used as a reservoir for the power plant. The Galleto power plant, built in 1929, is architecturally interesting. Its capacity is about 530 MW. To control the operation of the power plant, and to satisfy tourists, the falls are turned on according to a set schedule, achieving a spectacular effect at full flow. An alarm is sounded first, then the gates are opened, and in a few minutes the small stream is transformed into a full-sized river rushing into the void below.\n\nNormally, the falls are turned on between 12:00 and 13:00 and again between 16:00 and 17:00 every day, with additional times on holidays. An entrance fee is charged to visit the falls and the surrounding area.\n\nA path along the falls allows the visitor to hike up to the top of the falls. Along the way, a tunnel leads to an observatory just next to the falls, where a visitor is likely to get soaked. Another observatory near the top affords a wide view of the falls and of the Nera valley below.",
+        "response": "The Marmore Falls are used as a hydroelectric power plant, but to allow people to enjoy the spectacular water flow, the gates are periodically opened to present the full-sized river rushing into the void. \n\nThe tourists can visit the falls on a fixed schedule (12:00 to 13:00, 16:00 to 17:00 plus additional times on holidays) following paths that allow them to reach the top of the falls.",
+        "category": "summarization",
+        "idx": 185
+    },
+    {
+        "instruction": "Who was the lead singer for the band Aerosmith?",
+        "context": "",
+        "response": "Steven Tyler was the lead singer for Aerosmith",
+        "category": "open_qa",
+        "idx": 186
+    },
+    {
+        "instruction": "What is the oldest country in the world?",
+        "context": "",
+        "response": "Egypt is recognized as the oldest country in the world, its founding accepted to be approximately 3500 BC.",
+        "category": "open_qa",
+        "idx": 187
+    },
+    {
+        "instruction": "What are five creative ways to use paper?",
+        "context": "",
+        "response": "1. Make origami figures\n2. Create 2D or 3D paper art\n3. Scrapbooking\n4. Create a paper fortune teller game\n5. Create paper luminaires",
+        "category": "brainstorming",
+        "idx": 188
+    },
+    {
+        "instruction": "What is the JDK?",
+        "context": "",
+        "response": "The JDK is a development environment for building applications using the Java programming language. The JDK includes tools useful for developing and testing programs written in the Java programming language and running on the Java platform.",
+        "category": "open_qa",
+        "idx": 189
+    },
+    {
+        "instruction": "How many teams compete in Formula one world championship?",
+        "context": "",
+        "response": "Currently there are 10 teams competing in the Formula one world championships. The number of teams that compete in Formula one world championship have varied in the past.",
+        "category": "open_qa",
+        "idx": 190
+    },
+    {
+        "instruction": "Whats the difference between a bass guitar and a regular guitar?",
+        "context": "",
+        "response": "There are a few significant differences between a bass guitar and a regular guitar.  A bass guitar typically has 4 strings (though it can have more), is larger in body & neck, and has higher string gauges (string thickness).  A bass guitar is used for keeping the band on track by keeping the rhythm and hitting the root notes of the chords.  \n\nA regular guitar typically has 6 strings, and can be used for a wider variety of purposes.  These include keeping the rhythm with chords, playing foundational riffs, or improvisational solos for instrumental layering.  The regular guitarists are almost always the more well-known of the two.",
+        "category": "open_qa",
+        "idx": 191
+    },
+    {
+        "instruction": "When was the NFL founded? Which NFL team won the most Super Bowls? Which quarterback has won the most Super Bowls?",
+        "context": "",
+        "response": "The NFL was officially founded in 1920.\nThe New England Patriots have won 6 titles.\nTom Brady has won 7 superbowls",
+        "category": "open_qa",
+        "idx": 192
+    },
+    {
+        "instruction": "Who are U2",
+        "context": "",
+        "response": "U2 are an Irish rock band from Dublin, formed in 1976. The group consists of Bono (lead vocals and rhythm guitar), the Edge (lead guitar, keyboards, and backing vocals), Adam Clayton (bass guitar), and Larry Mullen Jr. (drums and percussion). Initially rooted in post-punk, U2's musical style has evolved throughout their career, yet has maintained an anthemic quality built on Bono's expressive vocals and the Edge's chiming, effects-based guitar sounds. Bono's lyrics, often embellished with spiritual imagery, focus on personal and sociopolitical themes. Popular for their live performances, the group have staged several ambitious and elaborate tours over their career.",
+        "category": "open_qa",
+        "idx": 193
+    },
+    {
+        "instruction": "what is the sunniest state in the US?",
+        "context": "",
+        "response": "Arizona has always been known for its dry, arid climate. With an annual sunlight average of 5,755 kJ/m\u00b2, it tops the sunniest states in the US.",
+        "category": "open_qa",
+        "idx": 194
+    },
+    {
+        "instruction": "Based on this summary of Lebron James career, what are the key reasons he is considered the greatest basketball player of all time?",
+        "context": "LeBron Raymone James Sr. (/l\u0259\u02c8br\u0252n/; born December 30, 1984) is an American professional basketball player for the Los Angeles Lakers in the National Basketball Association (NBA). Nicknamed \"King James\", he is considered to be one of the greatest basketball players in history and is often compared to Michael Jordan in debates over the greatest basketball player of all time. James is the all-time leading scorer in NBA history and ranks fourth in career assists. He has won four NBA championships (two with the Miami Heat, one each with the Lakers and Cleveland Cavaliers), and has competed in 10 NBA Finals. He has four MVP awards, four Finals MVP awards, and two Olympic gold medals. He has been named an All-Star 19 times, selected to the All-NBA Team 18 times (including 13 First Team selections) and the All-Defensive Team six times, and was a runner-up for the NBA Defensive Player of the Year Award twice in his career.\n\nJames grew up playing basketball for St. Vincent\u2013St. Mary High School in his hometown of Akron, Ohio. He was heavily touted by the national media as a future NBA superstar. A prep-to-pro, he was selected by the Cleveland Cavaliers with the first overall pick of the 2003 NBA draft. Named the 2004 NBA Rookie of the Year, he soon established himself as one of the league's premier players, leading the Cavaliers to their first NBA Finals appearance in 2007 and winning the NBA MVP award in 2009 and 2010. After failing to win a championship with Cleveland, James left in 2010 as a free agent to join the Miami Heat; this was announced in a nationally televised special titled The Decision and is among the most controversial free agency moves in sports history.\n\nJames won his first two NBA championships while playing for the Heat in 2012 and 2013; in both of these years, he also earned the league's MVP and Finals MVP awards. After his fourth season with the Heat in 2014, James opted out of his contract and re-signed with the Cavaliers. In 2016, he led the Cavaliers to victory over the Golden State Warriors in the Finals by coming back from a 3\u20131 deficit, delivering the team's first championship and ending the Cleveland sports curse. In 2018, James exercised his contract option to leave the Cavaliers and signed with the Lakers, where he won the 2020 NBA championship and his fourth Finals MVP. James is the first player in NBA history to accumulate $1 billion in earnings as an active player. On February 7, 2023, James surpassed Kareem Abdul-Jabbar to become the all-time leading scorer in NBA history.\n\nOff the court, James has accumulated more wealth and fame from numerous endorsement contracts. He has been featured in books, documentaries (including winning two Sports Emmy Awards as an executive producer), and television commercials. He has won 19 ESPY Awards, hosted Saturday Night Live, and starred in the sports film Space Jam: A New Legacy (2021). James has been a part-owner of Liverpool F.C. since 2011 and leads the LeBron James Family Foundation, which has opened an elementary school, housing complex, retail plaza, and medical center in Akron.",
+        "response": "\"King\" James is considered one of basketball's all-time greats because of the dominance and longevity displayed over his career. Lebron has personal accolades for days, including: 4 MVPs, 4 Finals MVPs, 19 All-Star seasons, 1st Team All-NBA 13 times, All-Defensives Team 6 times, and he's still going. When you sum up Lebron's career totals, they are equaling mind-blowing, as the NBA's all-time leading scorer, he is also 4th in career assists. Lebron's greatest achievement on the court is commonly viewed as the time he led the Cleveland Cavaliers back to championship glory, coming back from a 3-1 deficit to the Golden State Warriors in 2016.",
+        "category": "summarization",
+        "idx": 195
+    },
+    {
+        "instruction": "Which of the following are not colors of the rainbow spectrum?  Purple, Blue, Aqua, Orange, Black, Violet, Pink",
+        "context": "",
+        "response": "The colors of the rainbow spectrum are typically referenced using the acronym ROYGBIV: Red, Orange, Yellow, Green, Blue, Indigo & Violet. From the prior list, the colors that are not part of the rainbow spectrum are Purple, Aqua, Black and Pink.",
+        "category": "classification",
+        "idx": 196
+    },
+    {
+        "instruction": "Identify the bird from the list: Hoot, Coot, Foot",
+        "context": "",
+        "response": "Coot",
+        "category": "classification",
+        "idx": 197
+    },
+    {
+        "instruction": "5 steps to make a fire",
+        "context": "",
+        "response": "Step 1: Clear a Circular Space on the Ground. ...\nStep 2: Line the Circular Space With Large Rocks. ...\nStep 3: Place the Small Sticks and Twigs in the Circular Space As a Platform. ...\nStep 4: Place Dry Grass, and Leaves on the Kindling. ...\nStep 5: Light the Fire With a Lighter or Matches.",
+        "category": "brainstorming",
+        "idx": 198
+    },
+    {
+        "instruction": "From the paragraph about the painting, \"The Little Street\", tell me the painting's significance with reference to the Dutch Golden Age in that period.",
+        "context": "The Little Street (Het Straatje) is a painting by the Dutch painter Johannes Vermeer, executed c. 1657-1658. It is exhibited at the Rijksmuseum of Amsterdam, and signed, below the window in the lower left-hand corner, \"I V MEER\".",
+        "response": "Vermeer's \"The Little Street\" is significant in the context of the Dutch Golden Age movement as it depicts a typical aspect of life in a Dutch Golden Age town during the 17th century. It is one of only two known Vermeer paintings of views of Delft, the others being \"View of Delft\". Its attention to detail, the use of light, and the realistic portrayal of everyday life are characteristic of the Dutch Golden Age movement's focus on realism and domesticity in art.",
+        "category": "closed_qa",
+        "idx": 199
+    }
+]

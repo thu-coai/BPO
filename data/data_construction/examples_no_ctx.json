@@ -1,0 +1,12 @@
+[
+    {
+        "instruction": "Name a famous scientist who won a Nobel Prize.",
+        "good_res": "One famous scientist who won a Nobel Prize is Marie Curie. She was awarded the Nobel Prize in Physics in 1903 for her work on radioactivity, and then again in 1911 for her discovery of the elements radium and polonium, making her the first person to win the Nobel Prize in two different scientific fields.",
+        "bad_res": "Albert Einstein is a famous scientist who won the Nobel Prize in Physics in 1921."
+    },
+    {
+        "instruction": "Generate a business idea focused on using virtual reality.",
+        "good_res": "One innovative business idea that involves using virtual reality is creating immersive virtual experiences for home shoppers. This would involve setting up a service that can provide potential homebuyers with a realistic virtual tour of properties they are interested in, all from the comfort of their own homes. This would save time and money for both the buyer and the seller, as they wouldn't need to schedule multiple in-person showings.\n\nClients would put on a virtual reality headset and be transported into a fully immersive, life-like representation of the property they're interested in. This virtual tour would allow homebuyers to walk through the entire property, explore different rooms, and see features up close. This level of immersion would help buyers make informed decisions when it comes to purchasing a property.\n\nTo make this business unique, the virtual tours could be personalized and interactive. Customers could choose different times of day and weather conditions to see how the property looks, add and remove furniture, and make other changes to get a better feel for the space.\n\nThis business idea combines the power of virtual reality with the convenience of shopping from home. It has the potential to revolutionize the homebuying process, making it easier, more efficient, and more enjoyable for everyone involved.",
+        "bad_res": "A business idea focused on using virtual reality could be to create a virtual reality simulator for businesses. This simulator could allow companies to embed various scenarios into their employees' training and to help them learn and develop new skills. Companies could also use the simulator to test out new strategies or products in a virtual environment."
+    }
+]

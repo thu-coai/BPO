@@ -1,0 +1,6 @@
+tqdm
+requests
+transformers
+deepspeed
+aigc_zoo==0.2.4
+deep_training==0.2.4
