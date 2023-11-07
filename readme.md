@@ -24,7 +24,7 @@
 - [Quick Start](#quick-start)
     - [Data Construction](#data-construction)
     - [Model Training](#model-training)
-- [Citation](#citation)
+<!-- - [Citation](#citation) -->
 
 
 ## Model
