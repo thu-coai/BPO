@@ -14,7 +14,7 @@
 
 <!-- ![BPO](assets/intro.png) -->
 <div align="center">
-<img src="assets/intro.png" alt="BPO" width="80%" />
+<img src="assets/intro.png" alt="BPO" width="50%" />
 </div>
 
 <br>
