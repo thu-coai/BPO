@@ -1,7 +1,9 @@
 
-<div align="center">
-<img src="assets/cover.png" alt="BPO" width="90%" />
-</div>
+<!-- <div align="center"> -->
+<!-- <img src="assets/cover.png" alt="BPO" width="90%" /> -->
+<!-- </div> -->
+# Black-Box Prompt Optimization (BPO)
+### Aligning Large Language Models without Model Training
 
 <p align="center">
    🌐 <a href="https://llmbench.ai/safety" target="_blank">Model</a> • ⏬ <a href="#data" target="_blank">Data</a> 
