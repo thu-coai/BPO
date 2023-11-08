@@ -17,8 +17,8 @@ deep_config = get_deepspeed_config()
 if __name__ == '__main__':
     # TODO add input file and output file (requires json)
     # or you could implement it yourself
-    input_file = '../../data/testset/dolly_eval.json'
-    output_file = '../../data/testset/dolly_eval_optimized.json'
+    input_file = '../../data/data_construction/examples_ctx.json'
+    output_file = '../../data/data_construction/examples_ctx_optimized.json'
 
     parser = HfArgumentParser((ModelArguments,))
     (model_args,) = parser.parse_dict(train_info_args, allow_extra_keys=True)
