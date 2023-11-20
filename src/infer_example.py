@@ -2,17 +2,20 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 
 # TODO change model path
-model_path = 'Your-Model-Path'
+model_path = 'THUDM/BPO'
 
 prompt_template = "[INST] You are an expert prompt engineer. Please help me improve this prompt to get a more helpful and harmless response:\n{} [/INST]"
 
-model = AutoModelForCausalLM.from_pretrained(model_path).cuda()
+device = 'cuda:0'
+model = AutoModelForCausalLM.from_pretrained(model_path).half().eval().to(device)
+# for 8bit
+# model = AutoModelForCausalLM.from_pretrained(model_path, device_map=device, load_in_8bit=True)
 tokenizer = AutoTokenizer.from_pretrained(model_path, add_prefix_space=True)
     
 
 def gen(input_text):
     prompt = prompt_template.format(input_text)
-    model_inputs = tokenizer(prompt, return_tensors="pt").to("cuda:0")
+    model_inputs = tokenizer(prompt, return_tensors="pt").to(device)
     output = model.generate(**model_inputs, max_new_tokens=1024, do_sample=True, top_p=0.9, temperature=0.6, num_beams=1)
     resp = tokenizer.decode(output[0], skip_special_tokens=True).split('[/INST]')[1].strip()
 
@@ -27,7 +30,7 @@ def gen_aggressive(input_text):
         torch.manual_seed(seed)
         prompt = prompt_template.format(text)
         min_length = len(tokenizer(prompt)['input_ids']) + len(tokenizer(text)['input_ids']) + 5
-        model_inputs = tokenizer(prompt, return_tensors="pt").to("cuda:0")
+        model_inputs = tokenizer(prompt, return_tensors="pt").to(device)
         bad_words_ids = [tokenizer(bad_word, add_special_tokens=False).input_ids for bad_word in ["[PROTECT]", "\n\n[PROTECT]", "[KEEP", "[INSTRUCTION]"]]
         # eos and \n
         eos_token_ids = [tokenizer.eos_token_id, 13]

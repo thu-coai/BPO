@@ -6,7 +6,7 @@
 ### Aligning Large Language Models without Model Training
 
 <p align="center">
-   🌐 <a href="#model" target="_blank">Model</a> • ⏬ <a href="#data" target="_blank">Data</a> • 📃 <a href="https://arxiv.org/abs/2311.04155" target="_blank">Paper</a>
+   🤗 <a href="#model" target="_blank">Model</a> • 📚 <a href="#data" target="_blank">Data</a> • 📃 <a href="https://arxiv.org/abs/2311.04155" target="_blank">Paper</a> • 🌐 <a href="https://huggingface.co/spaces/CCCCCC/BPO_demo" target="_blank">Demo</a>
 </p>
 
 (Upper) Black-box Prompt Optimization (BPO) offers a conceptually new perspective to bridge the gap between humans and LLMs. (Lower) On Vicuna Eval’s pairwise evaluation, we show that BPO further aligns gpt-3.5-turbo and claude-2 without training. It also outperforms both PPO & DPO and presents orthogonal improvements.
@@ -16,6 +16,12 @@
 </div>
 
 <br>
+<br>
+
+## Update
+We have released our [model](https://huggingface.co/THUDM/BPO) and [data](https://huggingface.co/datasets/THUDM/BPO) on HuggingFace.
+
+We build a [demo](https://huggingface.co/spaces/CCCCCC/BPO_demo) for BPO on Huggingface.
 <br>
 
 ## Table of Contents
@@ -28,23 +34,26 @@
 
 
 ## Model
-The prompt preference optimization model can be download from [BPO Model](https://cloud.tsinghua.edu.cn/d/d2af23156eab4c148672/)
+The prompt preference optimization model can be download from [HuggingFace](https://huggingface.co/THUDM/BPO)
 
 Inference code (Please refer to [src/infer_example.py](src/infer_example.py) for more instructions on how to optimize your prompts):
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-model_path = 'Your-Model-Path'
+model_path = 'THUDM/BPO'
 
 prompt_template = "[INST] You are an expert prompt engineer. Please help me improve this prompt to get a more helpful and harmless response:\n{} [/INST]"
 
-model = AutoModelForCausalLM.from_pretrained(model_path).cuda()
+device = 'cuda:0'
+model = AutoModelForCausalLM.from_pretrained(model_path).half().eval().to(device)
+# for 8bit
+# model = AutoModelForCausalLM.from_pretrained(model_path, device_map=device, load_in_8bit=True)
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 
 text = 'Tell me about Harry Potter'
 
 prompt = prompt_template.format(text)
-model_inputs = tokenizer(prompt, return_tensors="pt").to("cuda:0")
+model_inputs = tokenizer(prompt, return_tensors="pt").to(device)
 output = model.generate(**model_inputs, max_new_tokens=1024, do_sample=True, top_p=0.9, temperature=0.6, num_beams=1)
 resp = tokenizer.decode(output[0], skip_special_tokens=True).split('[/INST]')[1].strip()
 
@@ -54,8 +63,7 @@ print(resp)
 ## Data
 
 ### BPO dataset
-We will open source our data after further checking.
-
+BPO Dataset can be found on [HuggingFace](https://huggingface.co/datasets/THUDM/BPO).
 
 ### BPO for SFT Data Construction 
 The alpaca_reproduce directory contains the BPO-reproduced Alpaca dataset. The data format is:
@@ -119,7 +127,7 @@ python infer_finetuning.py
 ```
 
 ## TODO
-- [ ] Datasets
+- [x] Datasets
 - [ ] Inference Code
 - [ ] Evaluation Code
 - [ ] RLHF Code
@@ -132,12 +140,10 @@ python infer_finetuning.py
 
 ## Citation
 ```
-@misc{cheng2023blackbox,
-      title={Black-Box Prompt Optimization: Aligning Large Language Models without Model Training}, 
-      author={Jiale Cheng and Xiao Liu and Kehan Zheng and Pei Ke and Hongning Wang and Yuxiao Dong and Jie Tang and Minlie Huang},
-      year={2023},
-      eprint={2311.04155},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{cheng2023black,
+  title={Black-Box Prompt Optimization: Aligning Large Language Models without Model Training},
+  author={Cheng, Jiale and Liu, Xiao and Zheng, Kehan and Ke, Pei and Wang, Hongning and Dong, Yuxiao and Tang, Jie and Huang, Minlie},
+  journal={arXiv preprint arXiv:2311.04155},
+  year={2023}
 }
 ```

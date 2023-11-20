@@ -7,8 +7,8 @@ with open('../../data/data_construction/examples_ctx_optimized.json', encoding='
 res = []
 num = 0
 for i in d:
-    q = i['final_input']
-    a = i['final_output']
+    q = i['prompt']
+    a = i['optimized_prompt']
     try:
         a = eval(a)
     except:

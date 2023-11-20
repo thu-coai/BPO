@@ -23,54 +23,54 @@ def process_no_ctx(input_file, output_file):
         except:
             prompt = response[1].strip()
         i['origin']['comparison'] = response[0]
-        i['origin']['optimized_prompt'] = prompt
+        i['origin']['optimized_instruction'] = prompt
         res.append(i['origin'])
 
 
     data = []
     for i in tqdm(res):
         if not len(i['context']):
-            i['final_input'] = i['instruction']
-            i['final_output'] = i['optimized_prompt']
+            i['prompt'] = i['instruction']
+            i['optimized_prompt'] = i['optimized_instruction']
         else:
             # optimized instruction contains context
-            if i['optimized_prompt'].lower().count(i['context'].lower()):
-                i['final_input'] = (i['instruction'] + '\n' + i['context']).strip()
-                i['final_output'] = i['optimized_prompt']
+            if i['optimized_instruction'].lower().count(i['context'].lower()):
+                i['prompt'] = (i['instruction'] + '\n' + i['context']).strip()
+                i['optimized_prompt'] = i['optimized_instruction']
             else:
                 # using the format {instruction}\n{context}
-                if i['optimized_prompt'].count('follow') or i['instruction'].count('follow') or i['instruction'][-1] == ':':
-                    i['final_input'] = (i['instruction'] + '\n' + i['context']).strip()
-                    i['final_output'] = (i['optimized_prompt'] + '\n' + i['context']).strip()
+                if i['optimized_instruction'].count('follow') or i['instruction'].count('follow') or i['instruction'][-1] == ':':
+                    i['prompt'] = (i['instruction'] + '\n' + i['context']).strip()
+                    i['optimized_prompt'] = (i['optimized_instruction'] + '\n' + i['context']).strip()
                 else:
                     if random.random()< 0.5:
                         if random.random() < 0.5:
                             # using the format {instruction}\n{context}
-                            i['final_input'] = (i['instruction'] + '\n' + i['context']).strip()
-                            i['final_output'] = (i['optimized_prompt'] + '\n' + i['context']).strip()
+                            i['prompt'] = (i['instruction'] + '\n' + i['context']).strip()
+                            i['optimized_prompt'] = (i['optimized_instruction'] + '\n' + i['context']).strip()
                         else:
                             # using the format {context}\n{instruction}
-                            i['final_input'] = (i['context'] + '\n' + i['instruction']).strip()
-                            i['final_output'] = (i['context'] + '\n' + i['optimized_prompt']).strip()
+                            i['prompt'] = (i['context'] + '\n' + i['instruction']).strip()
+                            i['optimized_prompt'] = (i['context'] + '\n' + i['optimized_instruction']).strip()
                     else:
                         if random.random() < 0.25:
                             if random.random() < 0.5:
                                 # using the format {instruction} {context}
-                                i['final_input'] = (i['instruction'] + ' ' + i['context']).strip()
-                                i['final_output'] = (i['optimized_prompt'] + ' ' + i['context']).strip()
+                                i['prompt'] = (i['instruction'] + ' ' + i['context']).strip()
+                                i['optimized_prompt'] = (i['optimized_instruction'] + ' ' + i['context']).strip()
                             else:
                                 # using the format {context} {instruction}
-                                i['final_input'] = (i['context'] + ' ' + i['instruction']).strip()
-                                i['final_output'] = (i['context'] + ' ' + i['optimized_prompt']).strip()
+                                i['prompt'] = (i['context'] + ' ' + i['instruction']).strip()
+                                i['optimized_prompt'] = (i['context'] + ' ' + i['optimized_instruction']).strip()
                         else:
                             if random.random() < 0.5:
                                 # using the format {instruction} "{context}"
-                                i['final_input'] = (i['instruction'] + ' "' + i['context'] + '"').strip()
-                                i['final_output'] = (i['optimized_prompt'] + ' "' + i['context'] + '"').strip()
+                                i['prompt'] = (i['instruction'] + ' "' + i['context'] + '"').strip()
+                                i['optimized_prompt'] = (i['optimized_instruction'] + ' "' + i['context'] + '"').strip()
                             else:
                                 # using the format {context} "{instruction}"
-                                i['final_input'] = (i['context'] + ' "' + i['instruction'] + '"').strip()
-                                i['final_output'] = (i['context'] + ' "' + i['optimized_prompt'] + '"').strip()
+                                i['prompt'] = ('"'+ i['context'] + '" ' + i['instruction']).strip()
+                                i['optimized_prompt'] = ('"' + i['context'] + '" ' + i['optimized_instruction']).strip()
         data.append(i)
 
     with open(output_file, 'w', encoding='utf-8') as f:
@@ -97,20 +97,20 @@ def process_ctx(input_file, output_file):
         except:
             prompt = response[1].strip()
         i['origin']['comparison'] = response[0]
-        i['origin']['optimized_prompt'] = prompt
+        i['origin']['optimized_instruction'] = prompt
         res.append(i['origin'])
 
     data = []
     num = 0
     for i in res:
-        if len(i['prompt'].split()) / len(i['optimized_prompt'].split()) > 2:
-            # filter data that may miss some contents
+        if len(i['prompt'].split()) / len(i['optimized_instruction'].split()) > 2 or len(i['optimized_instruction'].split()) / len(i['prompt'].split()) > 6:
+            # filter data that may be error
             continue
-        if i['optimized_prompt'].lower().count('[protected'):
+        if i['optimized_instruction'].lower().count('[protected'):
             # filter data contains special string
             continue
-        i['final_input'] = i['instruction']
-        i['final_output'] = i['optimized_prompt']
+        i['prompt'] = i['instruction']
+        i['optimized_prompt'] = i['optimized_instruction']
         data.append(i)
 
     with open(output_file, 'w', encoding='utf-8') as f:

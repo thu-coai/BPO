@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # TODO add input file and output file (requires json)
     # or you could implement it yourself
     input_file = '../../data/data_construction/examples_ctx.json'
-    output_file = '../../data/data_construction/examples_ctx_optimized.json'
+    output_file = '../../data/data_construction/examples_ctx_optimized_gen.json'
 
     parser = HfArgumentParser((ModelArguments,))
     (model_args,) = parser.parse_dict(train_info_args, allow_extra_keys=True)
@@ -64,7 +64,7 @@ if __name__ == '__main__':
                                      eos_token_id=config.eos_token_id,
                                      do_sample=True, top_p=0.9, temperature=0.6, num_beams=1)
 
-        input['optimized_prompt'] = response.strip()
+        input['gen_res'] = response.strip()
         gen_res.append(input)
 
     with open(output_file, 'w', encoding='utf-8') as f:
