@@ -19,9 +19,9 @@
 <br>
 
 ## Update
-We have released our [model](https://huggingface.co/THUDM/BPO) and [data](https://huggingface.co/datasets/THUDM/BPO) on HuggingFace.
+We have released our [model](https://huggingface.co/THUDM/BPO) and [data](https://huggingface.co/datasets/THUDM/BPO) on Hugging Face.
 
-We build a [demo](https://huggingface.co/spaces/CCCCCC/BPO_demo) for BPO on Huggingface.
+We build a [demo](https://huggingface.co/spaces/CCCCCC/BPO_demo) for BPO on Hugging Face.
 <br>
 
 ## Table of Contents
@@ -34,7 +34,7 @@ We build a [demo](https://huggingface.co/spaces/CCCCCC/BPO_demo) for BPO on Hugg
 
 
 ## Model
-The prompt preference optimization model can be download from [HuggingFace](https://huggingface.co/THUDM/BPO)
+The prompt preference optimization model can be download from [Hugging Face](https://huggingface.co/THUDM/BPO)
 
 Inference code (Please refer to [src/infer_example.py](src/infer_example.py) for more instructions on how to optimize your prompts):
 ```python
@@ -63,7 +63,7 @@ print(resp)
 ## Data
 
 ### BPO dataset
-BPO Dataset can be found on [HuggingFace](https://huggingface.co/datasets/THUDM/BPO).
+BPO Dataset can be found on [Hugging Face](https://huggingface.co/datasets/THUDM/BPO).
 
 ### BPO for SFT Data Construction 
 The alpaca_reproduce directory contains the BPO-reproduced Alpaca dataset. The data format is:
