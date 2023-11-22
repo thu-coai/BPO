@@ -4,7 +4,7 @@ from tqdm import trange, tqdm
 import os
 
 # Preprocess code for dataset with context, like Alpaca-gpt4
-def process_no_ctx(input_file, output_file):
+def process_ctx(input_file, output_file):
 
     with open(input_file) as f:
         l = f.readlines()
@@ -78,7 +78,7 @@ def process_no_ctx(input_file, output_file):
 
 
 # Preprocess code for dataset without context, like Chatbot Arena Conversation
-def process_ctx(input_file, output_file):
+def process_no_ctx(input_file, output_file):
 
     with open(input_file) as f:
         l = f.readlines()
@@ -103,7 +103,7 @@ def process_ctx(input_file, output_file):
     data = []
     num = 0
     for i in res:
-        if len(i['prompt'].split()) / len(i['optimized_instruction'].split()) > 2 or len(i['optimized_instruction'].split()) / len(i['prompt'].split()) > 6:
+        if len(i['instruction'].split()) / len(i['optimized_instruction'].split()) > 2 or len(i['optimized_instruction'].split()) / len(i['instruction'].split()) > 6:
             # filter data that may be error
             continue
         if i['optimized_instruction'].lower().count('[protected'):
