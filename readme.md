@@ -3,7 +3,7 @@
 <!-- <img src="assets/cover.png" alt="BPO" width="90%" /> -->
 <!-- </div> -->
 # Black-Box Prompt Optimization (BPO)
-### Aligning Large Language Models without Model Training
+### Aligning Large Language Models without Model Training (ACL 2024)
 
 <p align="center">
    🤗 <a href="#model" target="_blank">Model</a> • 📚 <a href="#data" target="_blank">Data</a> • 📃 <a href="https://arxiv.org/abs/2311.04155" target="_blank">Paper</a> • 🌐 <a href="https://huggingface.co/spaces/CCCCCC/BPO_demo" target="_blank">Demo</a>
@@ -30,6 +30,8 @@ We build a [demo](https://huggingface.co/spaces/CCCCCC/BPO_demo) for BPO on Hugg
 - [Quick Start](#quick-start)
     - [Data Construction](#data-construction)
     - [Model Training](#model-training)
+    - [Inference](#model-training)
+    - [Evaluation](#model-training)
 - [Citation](#citation)
 
 
@@ -126,11 +128,24 @@ python train.py
 python infer_finetuning.py
 ```
 
-## TODO
-- [x] Datasets
-- [ ] Inference Code
-- [ ] Evaluation Code
-- [ ] RLHF Code
+### Inference
+We show an [example code](src/inference/llama2_infer.py) for generation with llama2-chat on BPO-optimized prompts.
+
+### Evaluation
+If you wish to compare the BPO-aligned model with the original model, please refer to the following code:
+```bash
+cd src/evaluation
+
+# take gpt4 evaluation on dolly_eval as an example
+python gpt4_score.py --input_file_a "Path to generation results of BPO-aligned model" \
+--input_file_b "Path to generation results of original model" \
+--task_name "dolly_eval" \ # change it to "self_instruct", "test_set", or "vicuna_eval" for other testsets
+--output_file "Output path"
+
+# calculate win rates
+python cal_gpt4_score.py --input_file "Output path"
+```
+
 
 ## Acknowledgement
 - Fine-tuning code: [llm_finetuning](https://github.com/ssbuild/llm_finetuning)
