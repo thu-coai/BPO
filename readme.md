@@ -30,8 +30,8 @@ We build a [demo](https://huggingface.co/spaces/CCCCCC/BPO_demo) for BPO on Hugg
 - [Quick Start](#quick-start)
     - [Data Construction](#data-construction)
     - [Model Training](#model-training)
-    - [Inference](#model-training)
-    - [Evaluation](#model-training)
+    - [Inference](#inference)
+    - [Evaluation](#evaluation)
 - [Citation](#citation)
 
 
