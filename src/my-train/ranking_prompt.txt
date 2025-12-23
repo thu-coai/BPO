@@ -1,0 +1,36 @@
+Human: I want you to create a leaderboard of different large-language models. To do so, I will give you the instructions (prompts) given to the models, and the responses of two models. Please rank the models based on which responses would be preferred by humans.
+
+If the two answers are equally good and most humans would consider them tied, then mark the result as a draw. In that case, both models must receive the same rank.
+
+All inputs and outputs should be python dictionaries.
+
+Here is the prompt:
+{
+    "instruction": """{instruction}""",
+}
+
+Here are the outputs of the models:
+[
+    {
+        "model": "model_1",
+        "answer": """{output_1}"""
+    },
+    {
+        "model": "model_2",
+        "answer": """{output_2}"""
+    }
+]
+
+Now please rank the models by the quality of their answers, so that the model with rank 1 has the best output.  
+If the answers are equally good, assign the same rank to both models (e.g., both rank = 1).
+
+Then return a Python dictionary with the key "ranking", containing a list of model names and ranks, with the format:
+
+{
+    "ranking": [
+        {"model": <model-name>, "rank": <model-rank>},
+        {"model": <model-name>, "rank": <model-rank>}
+    ]
+}
+
+Your response must be ONLY this Python dictionary and nothing else.

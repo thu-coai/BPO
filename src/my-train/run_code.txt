@@ -1,0 +1,6 @@
+!sudo apt update
+!sudo apt install git -y
+!git clone https://github.com/danhnahh/BPO.git
+%cd BPO/src/my-train
+!pip install -r requirements.txt -qU
+!python infer_llama.py

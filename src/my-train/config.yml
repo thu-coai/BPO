@@ -1,0 +1,37 @@
+model:
+  name: "meta-llama/Llama-2-7b"
+
+training:
+  output_dir: "./sft-model"
+  learning_rate: 1e-4
+  batch_size: 1
+  epochs: 2
+  weight_decay: 0.01
+  gradient_accumulation_steps: 16
+  logging_steps: 5
+  eval_steps: 50
+  save_steps: 50
+  save_total_limit: 2
+  lr_scheduler_type: "cosine"
+  warmup_ratio: 0.05
+
+lora:
+  using_lora: True
+  r: 16
+  lora_alpha: 32
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+  lora_dropout: 0.05
+  bias: "none"
+
+dataset:
+  train_path: "./data/train.json"
+  val_path: "./data/val.json"
+  val_ratio: 0.05
+  max_token: 2812

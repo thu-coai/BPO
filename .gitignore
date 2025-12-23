@@ -1,0 +1,6 @@
+
+src/my-train/__pycache__/
+
+src/my-train/optimized_prompts.jsonl
+
+src/my-train/optimized_prompts_llama2_7b_res.jsonl
